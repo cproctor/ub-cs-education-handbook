@@ -4,7 +4,7 @@ title: Initial Certificate Track
 
 ## Initial Certificate Track
 
-```{.graphviz}
+```{.graphviz caption="The Initial Certificate Track"}
 digraph G {
   rank="max"
   rankdir="LR"

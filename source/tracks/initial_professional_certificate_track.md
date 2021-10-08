@@ -4,7 +4,7 @@ title: Initial/Professional Certificate Track
 
 ## Initial/Professional Certificate Track
 
-```{.graphviz}
+```{.graphviz caption="The Initial/Professional Certificate Track"}
 digraph G {
   rank="max"
   rankdir="LR"

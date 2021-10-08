@@ -4,6 +4,16 @@ title: Advanced Certificate Track
 
 ## Advanced Certificate Track
 
+```{.graphviz caption="The Advanced Certificate Track"}
+digraph G {
+  rank="max"
+  rankdir="LR"
+  other_cert [label="Teachers holding a certificate\n in another discipline"]
+  advanced_certificate [label="Advanced certificate\n coursework" shape="box"]
+  adv_cert_outcome [label="Certificate of Advanced Study\n Qualified to teach CS in NY"]
+  other_cert -> advanced_certificate -> adv_cert_outcome;
+}
+```
 ### Audience
 
 The Advanced Certificate track is designed for New York teachers currently holding 
