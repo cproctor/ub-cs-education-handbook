@@ -11,3 +11,11 @@ There are several reasons for using this system (as opposed to just writing the 
 - Handle tedious aspects of the build process, such as formatting citations, keeping the 
   references list up to date, and building the table of contents
 - Export in multiple formats, including PDF, HTML, and docx.
+
+## Installation
+
+You will need the following packages installed. If using a mac, these can all be installed using homebrew.
+
+- pandoc
+- pandoc-crossref
+- pandoc-plot
