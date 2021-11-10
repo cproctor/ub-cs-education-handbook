@@ -2,7 +2,7 @@
 # See: https://pandoc.org/MANUAL.html#default-files
 
 from: markdown
-output-file: export/ub_cs_education_handbook.html
+output-file: ub_cs_education_handbook.html
 input-files: 
   - source/introduction.md
   - source/vision_and_goals.md
