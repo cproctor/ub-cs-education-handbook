@@ -83,7 +83,7 @@ The Advanced Certificate consists of five courses and a total of 15 credit hours
 - [LAI XXX](#lai-XXX): The Pedagogy of Programming
 - [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science
 - [LAI 525](#lai-525): Critical Computational Literacies
-- [LAI 700](#lai-700): CS Edcuation Capstone
+- [LAI 700](#lai-700): CS Education Capstone
 
 #### Elective
 

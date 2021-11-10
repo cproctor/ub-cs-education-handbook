@@ -8,7 +8,7 @@ The UB Computer Science Education Program offers several tracks designed to meet
 needs of different students. If the diagram below has a path from where you are to where you 
 want to be, we have a track for you.
 
-```{.graphviz caption="All tracks of the CS Edcuation Program"}
+```{.graphviz caption="All tracks of the CS Education Program"}
 digraph G {
   rank="max"
   rankdir="LR"

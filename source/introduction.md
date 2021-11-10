@@ -18,8 +18,8 @@ has laid bare how computers are deeply implicated in our society's inequities an
 
 At the same time, our identities, relationships, and worlds are built upon computational technologies. 
 Youth today live new kinds of digital lives which were unimaginable to previous generations; our
-schools need to adapt to meet their needs and welcome their identites and experiences.
-A more just and democratic society depends on imformed and engaged democratic participation. Today, 
+schools need to adapt to meet their needs and welcome their identities and experiences.
+A more just and democratic society depends on informed and engaged democratic participation. Today, 
 that means cultivating vibrant and diverse cultures of computational literacy rooted in the communities
 and cultures served by our schools. We look forward to welcoming you into this community. 
 
@@ -43,7 +43,7 @@ provides definitive information on admissions, program requirements, and policie
 in case of a discrepancy between this handbook and the LAI website assume the latter is correct.
 
 This handbook was written by Dr. Chris Proctor, with substantial feedback and input from 
-Dr. Beth Etopio, Dr. Erin Keearney, and Dr. Anne Izydorczak. Any errors are the sole 
+Dr. Beth Etopio, Dr. Erin Kearney, and Dr. Anne Izydorczak. Any errors are the sole 
 responsibility of Dr. Proctor.
 
 That said, we strive to keep this document accurate and up-to-date. 
