@@ -8,9 +8,9 @@ title: Initial Certificate Track
 digraph G {
   rank="max"
   rankdir="LR"
-  cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework"]
-  initial [label="Initial coursework" shape="box"]
-  init_cert_outcome [label="Certificate of Advanced Study\n Recommendation for NYS Initial Certificate in CS\n Qualified to teach CS in NY for 5 years"]
+  cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework" shape="box"]
+  initial [label="Initial coursework"]
+  init_cert_outcome [label="Certificate of Advanced Study\n Recommendation for NYS Initial Certificate in CS\n Qualified to teach CS in NY for 5 years" shape="box"]
   cse_majors -> initial -> init_cert_outcome;
   
   subgraph programs {
@@ -46,6 +46,66 @@ Please see the [program web site](#TODO) for updates and details on application.
 
 [^1]: Graduate Record Exam (GRE) or Miller Analogies Test (MAT) scores are required from tests taken within the last five years—including verbal, quantitative and writing sections. Please use institution code 2925 and department code 3101.  While GRE/MAT scores are not demonstrated to be predictive of student success in our program, by statutory regulation we are required to have a standardized admission test score on file as part of your application. 
 
-### Status
+### Learning outcomes
 
-The details of the initial certificate track still need to be worked out.
+The Initial Certificate Track learning outcomes are aligned with the overarching 
+[CS Education Program outcomes](#program-outcomes). Incoming students are expected to 
+already have a strong content background in computer science.
+
+| Strand | Outcome                               |
+| ------ | ------------------------------------- |
+| PK     | Human development                     |
+| PK     | Learning                              |
+| PK     | Supporting students with disabilities |
+| PK     | Language acquisition and literacy     |
+| PK     | Curriculum and instruction            |
+| PK     | Classroom use of technology           |
+| PK     | Assessment                            |
+| PK     | Education in society                  |
+| PK     | Professional practice and obligations |
+| PCK    | Computing as a literacy               |
+| PCK    | Supporting learner identities         |
+| PCK    | Shaping the learning environment      |
+| PCK    | Teaching with computational media     |
+| PCK    | Feedback and assessment               |
+
+### Coursework
+
+#### Fall Term 1 (15 credits)
+
+| Course                                                                 | Credits | New? |
+|------------------------------------------------------------------------|---------|------|
+| LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |      |
+| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       | X    |
+| LAI 698: Instructional Strategies                                      | 3       |      |
+| LAI 667: Field Experience                                              | 3       |      |
+| LAI 574: Teaching the Exceptional Learner                              | 3       |      |
+
+#### Spring Term 1 (15 credits)
+
+| Course                                                                                          | Credits | New? |
+|-------------------------------------------------------------------------------------------------|---------|------|
+| LAI 562: English Language Learners: Emergent Theory and Practices                               | 3       |      |
+| LAI 552: Middle Childhood/ Adolescence Literacy Methods OR  LAI 551: Childhood Literacy Methods | 3       |      |
+| LAI 668: Supervised Teaching I                                                                  | 3       |      |
+| LAI 595: Supervised Teaching II                                                                 | 3       |      |
+| LAI 674: Seminar in Teaching                                                                    | 3       |      |
+
+#### Alignment of program and course outcomes
+
+|        | Outcome                               | LAI 663 | LAI 611 | LAI 698 | LAI 574 | LAI 562 | LAI 552 | LAI 674 |
+| ------ | ------------------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| PK     | Human development                     | X       |         |         | X       | X       |         |         |
+| PK     | Learning                              | X       |         |         | X       |         |         |         |
+| PK     | Supporting students with disabilities |         | X       |         | X       |         |         |         |
+| PK     | Language acquisition and literacy     |         |         |         |         | X       | X       |         |
+| PK     | Curriculum and instruction            |         | X       | X       |         |         |         |         |
+| PK     | Classroom use of technology           |         | X       |         |         |         |         |         |
+| PK     | Assessment                            |         | X       | X       |         |         |         |         |
+| PK     | Education in society                  |         |         |         | X       | X       |         |         |
+| PK     | Professional practice and obligations |         |         | X       |         |         |         |         |
+| PCK    | Computing as a literacy               |         |         |         |         |         | X       | X       |
+| PCK    | Supporting learner identities         | X       |         |         |         | X       | X       | X       |
+| PCK    | Shaping the learning environment      |         | X       |         |         |         |         | X       |
+| PCK    | Teaching with computational media     |         | X       |         |         |         |         | X       |
+| PCK    | Feedback and assessment               |         | X       |         |         |         |         |         |

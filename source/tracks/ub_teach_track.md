@@ -9,11 +9,11 @@ digraph G {
   rank="max"
   rankdir="LR"
 
-  undergrad [label="Undergraduate UB student\n majoring in CSE"]
-  ubteach [label="UB Teach" shape="box"]
-  initial [label="Initial coursework" shape="box"]
-  professional [label="Professional coursework" shape="box"]
-  pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n Qualified to teach CS in NY"]
+  undergrad [label="Undergraduate UB student\n majoring in CSE" shape="box"]
+  ubteach [label="UB Teach"]
+  initial [label="Initial coursework"]
+  professional [label="Professional coursework"]
+  pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n Qualified to teach CS in NY" shape="box"]
 
   undergrad -> ubteach -> initial -> professional -> pro_cert_outcome;
 

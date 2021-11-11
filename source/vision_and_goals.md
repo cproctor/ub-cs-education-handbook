@@ -79,3 +79,53 @@ which CS is well-positioned to help lead.
 - Interdisciplinary connections
 - Design and research
 
+## Summative assessments
+
+### New York state teacher certification exams
+
+Passing scores on the following [NYSTCE exams](https://www.nystce.nesinc.com/)
+are required for initial certification. These exams will be required for graduates of 
+the [UB Learns Track](#ub-learns-track), the [Initial Certificate Track](#initial-certificate-track),
+and the [Initial/Professional Certificate Track](#initial-professional-certificate-track).
+
+- edTPA
+- Educating All Students (EAS) test
+- Content Specialty Test (CST) in CS
+
+The NYSTCE content specialty exam in CS is currently under development. Once it becomes available, 
+this exam will be required for all 
+
+### CS education capstone
+
+All tracks except for the [Initial Certificate Track](#initial-certificate-track) culminate with 
+[LAI 700](#lai-700): CS Education Capstone, in which teacher candidates complete a performance assessment
+and write a vision statement.
+
+#### Performance assessment
+
+Candidates will demonstrate competency in CS content knowledge and pedagogical content knowledge 
+by completing a performance assessment to be completed during the capstone course. This will 
+involve two tasks which will require access to an authentic teaching context. 
+
+- Planning and reflective practice: Outline a curriculum unit and plan one lesson in detail, 
+  aimed at supporting a core CS practice. Teach and record the lesson. Then reflect on how 
+  your pedagogical practices supported student practices. 
+- Analyzing student learning: Design a formative assessment aligned with a core CS concept. 
+  Teach one or more lessons and administer the assessment. Analyze two student work samples 
+  for evidence of learning, areas for growth, and possible teacher responses. 
+
+#### Vision statement
+
+Additionally, candidates will articulate their vision for K-12 computer science education and 
+how they intend to pursue it. This is intended to be a practical document, useful for writing 
+an employment cover letter, starting an organization, and writing grants. The practice of 
+drafting, workshopping, and sharing vision statements will also be the foundation of an ongoing 
+community of practice. The vision statement should address:
+
+- A definition of computer science, explaining who this definition will serve and why they 
+  might find it valuable. 
+- A design for computer science education, justified in terms of why it is the right design 
+  for those it will serve. The scale of the design could vary, from how one CS course might 
+  be integrated into a school to how CS could be embedded into a community, a career, or a 
+  broader project of activism. 
+- A roadmap for how this might be achieved. This should be realistic and actionable. 

@@ -11,15 +11,16 @@ input-files:
   - source/tracks/initial_certificate_track.md
   - source/tracks/professional_certificate_track.md
   - source/tracks/initial_professional_certificate_track.md
-  - source/tracks/advanced_certificate_track.md
+  - source/tracks/advanced_certificate_track_for_in_service_teachers.md
   - source/courses/courses.md
   - source/courses/lai_XXX.md
   - source/courses/lai_YYY.md
   - source/courses/lai_525.md
-  - source/courses/lai_700.md
   - source/courses/lai_573.md
   - source/courses/lai_508.md
+  - source/courses/lai_611.md
   - source/courses/lai_686.md
+  - source/courses/lai_700.md
   - source/courses/dee_520.md
 
 table-of-contents: true
@@ -30,11 +31,12 @@ metadata:
   institution: University at Buffalo, SUNY
   email: chrisp@buffalo.edu
   title: UB Computer Science Education Handbook
-  date: "8 October 2021"
-  version: "0.0.1"
+  date: "10 November 2021"
+  version: "0.0.2"
 
 citeproc: true
 csl: apa-7th-edition
+css: handbook.css
 bibliography: source/bibliography.bib
 
 filters:
