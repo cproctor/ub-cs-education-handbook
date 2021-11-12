@@ -1,5 +1,5 @@
 ---
-title: Appendix II: Resources
+title: Resources
 ---
 
 ## Appendix II: Resources for CS Teacher Preparation
