@@ -56,26 +56,21 @@ The Initial/Professional Certificate Track learning outcomes are aligned with th
 [CS Education Program outcomes](#program-outcomes). Incoming students are expected to 
 already have a strong content background in computer science.
 
-| Strand | Outcome                               |
-| ------ | ------------------------------------- |
-| PK     | Human development                     |
-| PK     | Learning                              |
-| PK     | Supporting students with disabilities |
-| PK     | Language acquisition and literacy     |
-| PK     | Curriculum and instruction            |
-| PK     | Classroom use of technology           |
-| PK     | Assessment                            |
-| PK     | Education in society                  |
-| PK     | Professional practice and obligations |
-| PCK    | Computing as a literacy               |
-| PCK    | Supporting learner identities         |
-| PCK    | Shaping the learning environment      |
-| PCK    | Teaching with computational media     |
-| PCK    | Feedback and assessment               |
-| L      | Equity and opportunity                |
-| L      | Connected learning                    |
-| L      | Interdisciplinary connections         |
-| L      | Design and research                   |
+ - PK1: Human development                     
+ - PK2: Learning                              
+ - PK3: Supporting students with disabilities 
+ - PK4: Language acquisition and literacy     
+ - PK5: Curriculum and instruction            
+ - PK6: Professional practice and obligations 
+ - PCK1: Computing as a literacy               
+ - PCK2: Supporting learner identities         
+ - PCK3: Shaping the learning environment      
+ - PCK4: Teaching with computational media     
+ - PCK5: Feedback and assessment               
+ - L1: Equity and opportunity                
+ - L2: Connected learning                    
+ - L3: Interdisciplinary connections         
+ - L4: Design and research                   
 
 ### Coursework
 
@@ -110,35 +105,111 @@ already have a strong content background in computer science.
 | LAI 600 Curriculum Integration and Assessment                                                 | 3       |      |
 | [LAI 700](#lai-700): CS Education Capstone                                                    | 3       | X    |
 
-#### Alignment of program and course outcomes
-
-The following table aligns Initial/Professional Certificate Track learning outcomes with courses 
+The following diagram aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
-##### Pedagogical Knowledge
+```{.graphviz caption="Alignment of program and course outcomes"}
+digraph G {
+  rank="max"
+  rankdir="LR"
 
-| Strand | Outcome                               | LAI 611 | LAI 663 | LAI 698 | LAI 562 | LAI 552 | LAI 574 | LAI 600 |
-| ------ | ------------------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| PK     | Human development                     |         | X       |         | X       |         | X       |         |
-| PK     | Learning                              |         | X       |         |         |         | X       |         |
-| PK     | Supporting students with disabilities | X       |         |         |         |         | X       |         |
-| PK     | Language acquisition and literacy     |         |         |         | X       | X       |         |         |
-| PK     | Curriculum and instruction            | X       |         | X       |         |         |         | X       |
-| PK     | Classroom use of technology           | X       |         |         |         |         |         |         |
-| PK     | Assessment                            | X       |         | X       |         |         |         | X       |
-| PK     | Education in society                  |         |         |         | X       |         | X       |         |
-| PK     | Professional practice and obligations |         |         | X       |         |         |         |         |
+  node [width=3.5]
 
-##### Pedagogical Content Knowledge and Leadership
+  rank1 [style=invis]
+  rank2 [style=invis]
 
-| Strand | Outcome                               | LAI 525 | LAI 611 | LAI 663 | LAI XXX | LAI 562 | LAI YYY | LAI 515 | LAI 552 | LAI 600 | LAI 700 |
-| ------ | ------------------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| PCK    | Computing as a literacy               | X       |         |         |         |         |         |         | X       |         |         |
-| PCK    | Supporting learner identities         | X       |         | X       | X       | X       |         |         | X       |         |         |
-| PCK    | Shaping the learning environment      | X       | X       |         |         |         |         |         |         |         |         |
-| PCK    | Teaching with computational media     |         | X       |         | X       |         |         |         |         |         |         |
-| PCK    | Feedback and assessment               |         | X       |         | X       |         |         |         |         | X       |         |
-| L      | Equity and opportunity                | X       |         |         |         |         |         | X       |         |         | X       |
-| L      | Connected learning                    |         |         |         | X       |         |         | X       |         |         |         |
-| L      | Interdisciplinary connections         |         |         |         |         |         | X       |         |         |         | X       |
-| L      | Design and research                   |         |         |         |         |         | X       | X       |         |         | X       |
+  pk1 [label="PK1: Human development" shape="box"]
+  pk2 [label="PK2: Learning" shape="box"]
+  pk3 [label="PK3: Supporting students with disabilities" shape="box"]
+  pk4 [label="PK4: Language acquisition and literacy" shape="box"]
+  pk5 [label="PK5: Curriculum and instruction" shape="box"]
+  pk6 [label="PK6: Professional practice and obligations" shape="box"]
+  pck1 [label="PCK1: Computing as a literacy" shape="box"]
+  pck2 [label="PCK2: Supporting learner identities" shape="box"]
+  pck3 [label="PCK3: Shaping the learning environment" shape="box"]
+  pck4 [label="PCK4: Teaching with computational media" shape="box"]
+  pck5 [label="PCK5: Feedback and assessment" shape="box"]
+  l1 [label="L1: Equity and opportunity" shape="box"]
+  l2 [label="L2: Connected learning" shape="box"]
+  l3 [label="L3: Interdisciplinary connections" shape="box"]
+  l4 [label="L4: Design and research" shape="box"]
+
+  node [width=1]
+
+  lai_xxx [label="LAI XXX" shape="box"]
+  lai_yyy [label="LAI YYY" shape="box"]
+  lai_525 [label="LAI 525" shape="box"]
+  lai_574 [label="LAI 574" shape="box"]
+  lai_663 [label="LAI 663" shape="box"]
+  lai_562 [label="LAI 562" shape="box"]
+  lai_698 [label="LAI 698" shape="box"]
+  lai_552 [label="LAI 552" shape="box"]
+  lai_611 [label="LAI 611" shape="box"]
+  lai_515 [label="LAI 515" shape="box"]
+  lai_700 [label="LAI 700" shape="box"]
+
+  edge [arrowhead=none]
+
+  pk1  -> lai_663;
+  pk1  -> lai_562;
+  pk1  -> lai_574;
+  pk2  -> lai_663;
+  pk2  -> lai_574;
+  pk3  -> lai_611;
+  pk3  -> lai_574;
+  pk4  -> lai_562;
+  pk4  -> lai_552;
+  pk5  -> lai_611;
+  pk5  -> lai_698;
+  pk6  -> lai_698;
+  pck1 -> lai_525;
+  pck1 -> lai_552;
+  pck2 -> lai_525;
+  pck2 -> lai_663;
+  pck2 -> lai_xxx;
+  pck2 -> lai_562;
+  pck2 -> lai_552;
+  pck3 -> lai_525;
+  pck3 -> lai_611;
+  pck4 -> lai_611;
+  pck4 -> lai_xxx;
+  pck5 -> lai_xxx;
+  pck5 -> lai_611;
+  l1   -> lai_525;
+  l1   -> lai_515;
+  l1   -> lai_700;
+  l2   -> lai_xxx;
+  l2   -> lai_515;
+  l2   -> lai_525;
+  l2   -> lai_700;
+  l3   -> lai_yyy;
+  l3   -> lai_700;
+  l4   -> lai_yyy;
+  l4   -> lai_515;
+  l4   -> lai_700;
+
+  edge [style=invis];
+
+  rank1 -> rank2;
+  pk1 -> pk2 -> pk3 -> pk4 -> pk5 -> pk6 -> pck1 -> pck2 -> pck3 -> pck4 -> pck5 -> l1 -> l2 -> l3 -> l4;
+
+  subgraph outcomes {
+   rank="same"
+    pk1
+    pk2
+    pk3
+    pk4
+    pk5
+    pk6
+    pck1
+    pck2
+    pck3
+    pck4
+    pck5
+    l1
+    l2
+    l3
+    l4
+  }
+}
+```

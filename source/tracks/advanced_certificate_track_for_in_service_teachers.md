@@ -44,22 +44,19 @@ The Advanced Certificate Track for In-Service Teachers prioritizes CS content kn
 The Advanced Certificate Track for In-Service Teachers focuses on adapting teachers' 
 existing pedagogical content knowledge to CS.
 
-| Strand | Outcome                               |
-| ------ | ------------------------------------- |
-| CK     | Impacts of computing                  |
-| CK     | Computational thinking                |
-| CK     | Networks and system design            |
-| CK     | Cybersecurity                         |
-| CK     | Digital literacy                      |
-| PCK    | Computing as a literacy               |
-| PCK    | Supporting learner identities         |
-| PCK    | Shaping the learning environment      |
-| PCK    | Teaching with computational media     |
-| PCK    | Feedback and assessment               |
-| L      | Equity and opportunity                |
-| L      | Connected learning                    |
-| L      | Interdisciplinary connections         |
-| L      | Design and research                   |
+ - CK1: Impacts of computing                  
+ - CK2: Computational thinking                
+ - CK3: Networks and system design            
+ - CK4: Cybersecurity                         
+ - PCK1: Computing as a literacy               
+ - PCK2: Supporting learner identities         
+ - PCK3: Shaping the learning environment      
+ - PCK4: Teaching with computational media     
+ - PCK5: Feedback and assessment               
+ - L1: Equity and opportunity                
+ - L2: Connected learning                    
+ - L3: Interdisciplinary connections         
+ - L4: Design and research                   
 
 ### Coursework
 
@@ -86,23 +83,82 @@ Students will choose one of the following electives:
 - A graduate-level CSE course. Recommended for students with strong content background, especially 
   those interested in teaching Advanced Placement courses.
 
-#### Alignment of program and course outcomes
-
-The following table aligns Advanced Certificate Track for In-Service Teachers learning outcomes with courses 
+The following diagram aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
-| Strand | Outcome                               | LAI XXX   | LAI YYY   | LAI 525   | LAI 700   |
-| ------ | ------------------------------------- | --------- | --------- | --------- | --------- |
-| CK     | Impacts of computing                  |           | X         |           |           |
-| CK     | Computational thinking                | X         |           |           |           |
-| CK     | Networks and system design            |           | X         |           |           |
-| CK     | Cybersecurity                         |           | X         |           |           |
-| PCK    | Computing as a literacy               |           |           | X         | X         |
-| PCK    | Supporting learner identities         | X         |           | X         |           |
-| PCK    | Shaping the learning environment      |           |           | X         |           |
-| PCK    | Teaching with computational media     | X         |           |           |           |
-| PCK    | Feedback and assessment               | X         |           |           |           |
-| L      | Equity and opportunity                |           |           | X         | X         |
-| L      | Connected learning                    | X         |           | X         |           |
-| L      | Interdisciplinary connections         |           | X         |           | X         |
-| L      | Design and research                   |           | X         |           | X         |
+```{.graphviz caption="Alignment of program and course outcomes"}
+digraph G {
+  rank="max"
+  rankdir="LR"
+
+  node [width=3.5]
+
+  rank1 [style=invis]
+  rank2 [style=invis]
+
+  ck1 [label="CK: Impacts of computing" shape="box"]
+  ck2 [label="CK: Computational thinking" shape="box"]
+  ck3 [label="CK: Networks and system design" shape="box"]
+  ck4 [label="CK: Cybersecurity" shape="box"]
+  pck1 [label="PCK1: Computing as a literacy" shape="box"]
+  pck2 [label="PCK2: Supporting learner identities" shape="box"]
+  pck3 [label="PCK3: Shaping the learning environment" shape="box"]
+  pck4 [label="PCK4: Teaching with computational media" shape="box"]
+  pck5 [label="PCK5: Feedback and assessment" shape="box"]
+  l1 [label="L1: Equity and opportunity" shape="box"]
+  l2 [label="L2: Connected learning" shape="box"]
+  l3 [label="L3: Interdisciplinary connections" shape="box"]
+  l4 [label="L4: Design and research" shape="box"]
+
+  node [width=1]
+
+  lai_xxx [label="LAI XXX" shape="box"]
+  lai_yyy [label="LAI YYY" shape="box"]
+  lai_525 [label="LAI 525" shape="box"]
+  lai_700 [label="LAI 700" shape="box"]
+
+  edge [arrowhead=none]
+
+  ck1  -> lai_yyy;
+  ck2  -> lai_xxx;
+  ck3  -> lai_yyy;
+  ck4  -> lai_yyy;
+  pck1 -> lai_525;
+  pck2 -> lai_525;
+  pck2 -> lai_xxx;
+  pck3 -> lai_525;
+  pck4 -> lai_xxx;
+  pck5 -> lai_xxx;
+  l1   -> lai_525;
+  l1   -> lai_700;
+  l2   -> lai_xxx;
+  l2   -> lai_525;
+  l2   -> lai_700;
+  l3   -> lai_yyy;
+  l3   -> lai_700;
+  l4   -> lai_yyy;
+  l4   -> lai_700;
+
+  edge [style=invis];
+
+  rank1 -> rank2;
+  ck1 -> ck2 -> ck3 -> ck4 -> pck1 -> pck2 -> pck3 -> pck4 -> pck5 -> l1 -> l2 -> l3 -> l4;
+
+  subgraph outcomes {
+   rank="same"
+    ck1
+    ck2
+    ck3
+    ck4
+    pck1
+    pck2
+    pck3
+    pck4
+    pck5
+    l1
+    l2
+    l3
+    l4
+  }
+}
+```

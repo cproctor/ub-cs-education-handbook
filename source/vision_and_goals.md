@@ -22,8 +22,17 @@ program outcomes. However, tracks have different learning outcomes because they 
 incoming students to already have certain competencies.
 For example, the [Advanced Certificate track](#advanced-certificate) expects
 incoming students to have a strong foundation in pedagogical knowledge, while the 
-[UB Teach](), [Initial](), [Initial/Professional](), and [Professional]() tracks 
+[UB Teach](#ub-teach-track), [Initial](#initial-certificate-track), 
+[Professional](#professional-certificate-track), and 
+[Initial/Professional](#initialprofessional-certificate-track) tracks
 expect incoming students to have a strong foundation in CS content knowledge. 
+
+The Program Outcomes are aligned with 
+[New York's Computer Science and Digital Fluency Standards](http://www.nysed.gov/common/nysed/files/programs/curriculum-instruction/computer-science-digital-fluency-standards-k-12.pdf), 
+[New York's requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), as well as
+[CSTA's Standards for CS Teachers](https://csteachers.org/page/standards-for-cs-teachers-interactive) 
+(See [Appendix I](#appendix-i-alignment-of-program-outcomes-with-csta-standards) for 
+alignment with CSTA Standards for CS Teachers).
 
 #### CS Content Knowledge
 
@@ -41,16 +50,17 @@ outcomes below.
 #### Pedagogical Knowledge
 
 Pedagogical knowledge outcomes for CS teachers are defined by New York's 
-[requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject). They include:
+[requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject). 
+Several of New York's PK standards are addressed by PCK standards in UB's Program Outcomes
 
 - Human development
 - Learning
 - Supporting students with disabilities
 - Language acquisition and literacy
 - Curriculum and instruction
-- Classroom use of technology
-- Assessment
-- Education in society
+- Classroom use of technology (Addressed by PCK: Teaching with computational media)
+- Assessment (Addressed by PCK: Feedback and assessment)
+- Education in society (Addressed by L: Connected learning)
 - Professional practice and obligations
 
 #### Pedagogical Content Knowledge

@@ -30,7 +30,6 @@ digraph G {
   other_cert -> advanced_certificate -> adv_cert_outcome;
   pro_cert_outcome -> adv_cert_outcome [style=invis];
   
-
   subgraph starts {
     rank="same"
     undergrad
