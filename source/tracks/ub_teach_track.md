@@ -4,7 +4,7 @@ title: UB Teach track
 
 ## UB Teach Track
 
-```{.graphviz}
+```{.graphviz caption="The UB Teach Track"}
 digraph G {
   rank="max"
   rankdir="LR"
