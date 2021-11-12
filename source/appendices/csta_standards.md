@@ -97,7 +97,6 @@ digraph G {
   csta4e -> l2;
   csta4f -> pk5;
   csta4f -> pck4;
-  csta4g -> pk7;
   csta4g -> pck5;
   csta5a -> l2;
   csta5b -> pck3;
