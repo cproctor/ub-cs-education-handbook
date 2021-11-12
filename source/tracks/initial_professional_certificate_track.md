@@ -56,54 +56,54 @@ The Initial/Professional Certificate Track learning outcomes are aligned with th
 [CS Education Program outcomes](#program-outcomes). Incoming students are expected to 
 already have a strong content background in computer science.
 
- - PK1: Human development                     
- - PK2: Learning                              
- - PK3: Supporting students with disabilities 
- - PK4: Language acquisition and literacy     
- - PK5: Curriculum and instruction            
- - PK6: Professional practice and obligations 
- - PCK1: Computing as a literacy               
- - PCK2: Supporting learner identities         
- - PCK3: Shaping the learning environment      
- - PCK4: Teaching with computational media     
- - PCK5: Feedback and assessment               
- - L1: Equity and opportunity                
- - L2: Connected learning                    
- - L3: Interdisciplinary connections         
- - L4: Design and research                   
+ - PK1: Human development
+ - PK2: Learning
+ - PK3: Supporting students with disabilities
+ - PK4: Language acquisition and literacy
+ - PK5: Curriculum and instruction
+ - PK6: Professional practice and obligations
+ - PCK1: Computing as a literacy
+ - PCK2: Supporting learner identities
+ - PCK3: Shaping the learning environment
+ - PCK4: Teaching with computational media
+ - PCK5: Feedback and assessment
+ - L1: Equity and opportunity
+ - L2: Connected learning
+ - L3: Interdisciplinary connections
+ - L4: Design and research
 
 ### Coursework
 
 #### Fall Term 1 (15 credits)
 
-| Course                                                                 | Credits | New? |
-| ---------------------------------------------------------------------- | ------- | ---- |
-| [LAI 525](#lai-525): Critical Computational Literacies                 | 3       |      |
-| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       | X    |
-| LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |      |
-| LAI 667: Field Experience                                              | 3       |      |
-| LAI 698: Instructional Strategies                                      | 3       |      |
+| Course                                                                 | Credits |
+| ---------------------------------------------------------------------- | ------- |
+| [LAI 525](#lai-525): Critical Computational Literacies                 | 3       |
+| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       |
+| LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |
+| LAI 667: Field Experience                                              | 3       |
+| LAI 698: Instructional Strategies                                      | 3       |
 
 #### Spring Term 1 (15 credits)
 
-| Course                                                                 | Credits | New? |
-| ---------------------------------------------------------------------- | ------- | ---- |
-| [LAI XXX](#lai-XXX): The Pedagogy of Programming                       | 3       | X    |
-| LAI 562: English Language Learners: Emergent Theory and Practices      | 3       |      |
-| LAI 668: Supervised Teaching I                                         | 3       |      |
-| LAI 595: Supervised Teaching II                                        | 3       |      |
-| LAI 674: Seminar in Teaching                                           | 3       |      |
+| Course                                                                 | Credits |
+| ---------------------------------------------------------------------- | ------- |
+| [LAI XXX](#lai-XXX): The Pedagogy of Programming                       | 3       |
+| LAI 562: English Language Learners: Emergent Theory and Practices      | 3       |
+| LAI 668: Supervised Teaching I                                         | 3       |
+| LAI 595: Supervised Teaching II                                        | 3       |
+| LAI 674: Seminar in Teaching                                           | 3       |
 
 #### Year 2 (18 credits)
 
-| Course                                                                                        | Credits | New? |
-| ----------------------------------------------------------------                              | ------- | ---- |
-| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science                                 | 3       | X    |
-| LAI 515 Action Research to Improve Teaching and Learning                                      | 3       |      |
-| LAI 552: Middle Childhood/Adolescence Literacy Methods OR LAI 551: Childhood Literacy Methods | 3       |      |
-| LAI 574: Teaching the Exceptional Learner                                                     | 3       |      |
-| LAI 600 Curriculum Integration and Assessment                                                 | 3       |      |
-| [LAI 700](#lai-700): CS Education Capstone                                                    | 3       | X    |
+| Course                                                                                        | Credits |
+| ----------------------------------------------------------------                              | ------- |
+| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science                                 | 3       |
+| LAI 515 Action Research to Improve Teaching and Learning                                      | 3       |
+| LAI 552: Middle Childhood/Adolescence Literacy Methods OR LAI 551: Childhood Literacy Methods | 3       |
+| LAI 574: Teaching the Exceptional Learner                                                     | 3       |
+| LAI 600 Curriculum Integration and Assessment                                                 | 3       |
+| [LAI 700](#lai-700): CS Education Capstone                                                    | 3       |
 
 The following diagram aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.

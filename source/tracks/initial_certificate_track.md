@@ -52,39 +52,39 @@ The Initial Certificate Track learning outcomes are aligned with the overarching
 [CS Education Program outcomes](#program-outcomes). Incoming students are expected to 
 already have a strong content background in computer science.
 
- - PK1: Human development                     
- - PK2: Learning                              
- - PK3: Supporting students with disabilities 
- - PK4: Language acquisition and literacy     
- - PK5: Curriculum and instruction            
- - PK6: Professional practice and obligations 
- - PCK1: Computing as a literacy               
- - PCK2: Supporting learner identities         
- - PCK3: Shaping the learning environment      
- - PCK4: Teaching with computational media     
- - PCK5: Feedback and assessment               
+ - PK1: Human development
+ - PK2: Learning
+ - PK3: Supporting students with disabilities
+ - PK4: Language acquisition and literacy
+ - PK5: Curriculum and instruction
+ - PK6: Professional practice and obligations
+ - PCK1: Computing as a literacy
+ - PCK2: Supporting learner identities
+ - PCK3: Shaping the learning environment
+ - PCK4: Teaching with computational media
+ - PCK5: Feedback and assessment
 
 ### Coursework
 
 #### Fall Term 1 (15 credits)
 
-| Course                                                                 | Credits | New? |
-|------------------------------------------------------------------------|---------|------|
-| LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |      |
-| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       | X    |
-| LAI 698: Instructional Strategies                                      | 3       |      |
-| LAI 667: Field Experience                                              | 3       |      |
-| LAI 574: Teaching the Exceptional Learner                              | 3       |      |
+| Course                                                                 | Credits |
+|------------------------------------------------------------------------|---------|
+| LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |
+| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       |
+| LAI 698: Instructional Strategies                                      | 3       |
+| LAI 667: Field Experience                                              | 3       |
+| LAI 574: Teaching the Exceptional Learner                              | 3       |
 
 #### Spring Term 1 (15 credits)
 
-| Course                                                                                          | Credits | New? |
-|-------------------------------------------------------------------------------------------------|---------|------|
-| LAI 562: English Language Learners: Emergent Theory and Practices                               | 3       |      |
-| LAI 552: Middle Childhood/ Adolescence Literacy Methods OR  LAI 551: Childhood Literacy Methods | 3       |      |
-| LAI 668: Supervised Teaching I                                                                  | 3       |      |
-| LAI 595: Supervised Teaching II                                                                 | 3       |      |
-| LAI 674: Seminar in Teaching                                                                    | 3       |      |
+| Course                                                                                          | Credits |
+|-------------------------------------------------------------------------------------------------|---------|
+| LAI 562: English Language Learners: Emergent Theory and Practices                               | 3       |
+| LAI 552: Middle Childhood/ Adolescence Literacy Methods OR  LAI 551: Childhood Literacy Methods | 3       |
+| LAI 668: Supervised Teaching I                                                                  | 3       |
+| LAI 595: Supervised Teaching II                                                                 | 3       |
+| LAI 674: Seminar in Teaching                                                                    | 3       |
 
 The following diagram aligns Initial Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.

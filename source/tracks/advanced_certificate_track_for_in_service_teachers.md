@@ -44,19 +44,19 @@ The Advanced Certificate Track for In-Service Teachers prioritizes CS content kn
 The Advanced Certificate Track for In-Service Teachers focuses on adapting teachers' 
 existing pedagogical content knowledge to CS.
 
- - CK1: Impacts of computing                  
- - CK2: Computational thinking                
- - CK3: Networks and system design            
- - CK4: Cybersecurity                         
- - PCK1: Computing as a literacy               
- - PCK2: Supporting learner identities         
- - PCK3: Shaping the learning environment      
- - PCK4: Teaching with computational media     
- - PCK5: Feedback and assessment               
- - L1: Equity and opportunity                
- - L2: Connected learning                    
- - L3: Interdisciplinary connections         
- - L4: Design and research                   
+ - CK1: Impacts of computing
+ - CK2: Computational thinking
+ - CK3: Networks and system design
+ - CK4: Cybersecurity
+ - PCK1: Computing as a literacy
+ - PCK2: Supporting learner identities
+ - PCK3: Shaping the learning environment
+ - PCK4: Teaching with computational media
+ - PCK5: Feedback and assessment
+ - L1: Equity and opportunity
+ - L2: Connected learning
+ - L3: Interdisciplinary connections
+ - L4: Design and research
 
 ### Coursework
 
@@ -64,13 +64,13 @@ The Advanced Certificate consists of five courses and a total of 15 credit hours
 Courses may be taken in any order and at any pace, except for the culminating capstone
 course.
 
-| Course                                                        | Credits | New? |
-|---------------------------------------------------------------|---------|------|
-| [LAI XXX](#lai-XXX): The Pedagogy of Programming              | 3       | X    |
-| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science | 3       | X    |
-| [LAI 525](#lai-525): Critical Computational Literacies        | 3       |      |
-| [LAI 700](#lai-700): CS Education Capstone                    | 3       | X    |
-| Elective (see below)                                          | 3       |      |
+| Course                                                        | Credits |
+|---------------------------------------------------------------|---------|
+| [LAI XXX](#lai-XXX): The Pedagogy of Programming              | 3       |
+| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science | 3       |
+| [LAI 525](#lai-525): Critical Computational Literacies        | 3       |
+| [LAI 700](#lai-700): CS Education Capstone                    | 3       |
+| Elective (see below)                                          | 3       |
 
 Students will choose one of the following electives:
 

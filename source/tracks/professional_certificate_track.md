@@ -35,30 +35,30 @@ already have a strong content background in computer science as well as a strong
 in pedagogical knowledge. This track emphasizes the synthesis of content knowledge and pedagogical 
 knowledge into CS pedagogical content knowledge and leadership. 
 
- - PCK1: Computing as a literacy               
- - PCK2: Supporting learner identities         
- - PCK3: Shaping the learning environment      
- - PCK4: Teaching with computational media     
- - PCK5: Feedback and assessment               
- - L1: Equity and opportunity                
- - L2: Connected learning                    
- - L3: Interdisciplinary connections         
- - L4: Design and research                   
+ - PCK1: Computing as a literacy
+ - PCK2: Supporting learner identities
+ - PCK3: Shaping the learning environment
+ - PCK4: Teaching with computational media
+ - PCK5: Feedback and assessment
+ - L1: Equity and opportunity
+ - L2: Connected learning
+ - L3: Interdisciplinary connections
+ - L4: Design and research
 
 ### Coursework
 
 Coursework consists of 30 credits. Courses may be taken in any order and pace except for LAI 700, 
 which should be taken in the final semester.
 
-| Course                                                                   | Credits   | New?   |
-| ------------------------------------------------------------------------ | --------- | ------ |
-| [LAI XXX](#lai-XXX): The Pedagogy of Programming                         | 3         | X      |
-| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science            | 3         | X      |
-| LAI 515 Action Research to Improve Teaching and Learning                 | 3         |        |
-| [LAI 525](#lai-525): Critical Computational Literacies                   | 3         |        |
-| LAI 600 Curriculum Integration and Assessment                            | 3         |        |
-| [LAI 700](#lai-700): CS Education Capstone                               | 3         | X      |
-| Electives                                                                | 12        |        |
+| Course                                                                   | Credits   |
+| ------------------------------------------------------------------------ | --------- |
+| [LAI XXX](#lai-XXX): The Pedagogy of Programming                         | 3         |
+| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science            | 3         |
+| LAI 515 Action Research to Improve Teaching and Learning                 | 3         |
+| [LAI 525](#lai-525): Critical Computational Literacies                   | 3         |
+| LAI 600 Curriculum Integration and Assessment                            | 3         |
+| [LAI 700](#lai-700): CS Education Capstone                               | 3         |
+| Electives                                                                | 12        |
 
 Students will choose from the following electives:
 
