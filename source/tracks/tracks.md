@@ -12,6 +12,9 @@ want to be, we have a track for you.
 digraph G {
   rank="max"
   rankdir="LR"
+
+  node [width=3]
+
   undergrad [label="Undergraduate UB student\n majoring in CSE" shape="box"]
   cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework" shape="box"]
   init_cert [label="Teachers holding\n initial certificate in CS" shape="box"]
@@ -20,6 +23,9 @@ digraph G {
   initial [label="Initial coursework"]
   professional [label="Professional coursework"]
   advanced_certificate [label="Advanced certificate\n coursework"]
+
+  node [width=5]
+
   init_cert_outcome [label="Certificate of Advanced Study\n Recommendation for NYS Initial Certificate in CS\n Qualified to teach CS in NY for 5 years" shape="box"]
   pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n Qualified to teach CS in NY" shape="box"]
   adv_cert_outcome [label="Certificate of Advanced Study\n Qualified to teach CS in NY" shape="box"]
