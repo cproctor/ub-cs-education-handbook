@@ -72,23 +72,6 @@ Students will choose from the following electives:
   those interested in teaching Advanced Placement courses.
 - Other LAI, LIS, or interdisciplinary courses with advisor approval.
 
-#### Alignment of program and course outcomes
-
-The following table aligns Professional Certificate Track learning outcomes with courses 
-providing summative assessments of this learning.
-
-| Strand | Outcome                           | LAI XXX | LAI YYY | LAI 525 | LAI 700 |
-| ------ | --------------------------------- | ------- | ------- | ------- | ------- |
-| PCK    | Computing as a literacy           |         |         | X       |         |
-| PCK    | Supporting learner identities     | X       |         | X       |         |
-| PCK    | Shaping the learning environment  |         |         | X       |         |
-| PCK    | Teaching with computational media | X       |         |         |         |
-| PCK    | Feedback and assessment           | X       |         |         |         |
-| L      | Equity and opportunity            |         |         | X       | X       |
-| L      | Connected learning                | X       |         |         |         |
-| L      | Interdisciplinary connections     |         | X       |         | X       |
-| L      | Design and research               |         | X       |         | X       |
-
 The following diagram aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 

@@ -33,7 +33,7 @@ metadata:
   email: chrisp@buffalo.edu
   title: UB Computer Science Education Handbook
   date: "11 November 2021"
-  version: "0.0.3"
+  version: "0.0.4"
 
 citeproc: true
 csl: apa-7th-edition

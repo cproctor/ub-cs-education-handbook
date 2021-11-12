@@ -102,8 +102,8 @@ and the [Initial/Professional Certificate Track](#initial-professional-certifica
 - Educating All Students (EAS) test
 - Content Specialty Test (CST) in CS
 
-The NYSTCE content specialty exam in CS is currently under development. Once it becomes available, 
-this exam will be required for all 
+The NYSTCE content specialty exam in CS is currently under development. New York has historically 
+waived exam requirements while they are under development.
 
 ### CS education capstone
 
