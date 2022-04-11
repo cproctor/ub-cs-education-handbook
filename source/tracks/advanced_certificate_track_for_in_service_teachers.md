@@ -66,9 +66,9 @@ course.
 
 | Course                                                        | Credits |
 |---------------------------------------------------------------|---------|
-| [LAI XXX](#lai-XXX): The Pedagogy of Programming              | 3       |
-| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science | 3       |
-| [LAI 525](#lai-525): Critical Computational Literacies        | 3       |
+| [LAI 676](#lai-676): The Pedagogy of Programming              | 3       |
+| [LAI 677](#lai-677): Survey of Topics in K12 Computer Science | 3       |
+| [LAI 605](#lai-605): Critical Computational Literacies        | 3       |
 | [LAI 700](#lai-700): CS Education Capstone                    | 3       |
 | Elective (see below)                                          | 3       |
 
@@ -112,31 +112,31 @@ digraph G {
 
   node [width=1]
 
-  lai_xxx [label="LAI XXX" shape="box"]
-  lai_yyy [label="LAI YYY" shape="box"]
-  lai_525 [label="LAI 525" shape="box"]
+  lai_676 [label="LAI 676" shape="box"]
+  lai_677 [label="LAI 677" shape="box"]
+  lai_605 [label="LAI 605" shape="box"]
   lai_700 [label="LAI 700" shape="box"]
 
   edge [arrowhead=none]
 
-  ck1  -> lai_yyy;
-  ck2  -> lai_xxx;
-  ck3  -> lai_yyy;
-  ck4  -> lai_yyy;
-  pck1 -> lai_525;
-  pck2 -> lai_525;
-  pck2 -> lai_xxx;
-  pck3 -> lai_525;
-  pck4 -> lai_xxx;
-  pck5 -> lai_xxx;
-  l1   -> lai_525;
+  ck1  -> lai_677;
+  ck2  -> lai_676;
+  ck3  -> lai_677;
+  ck4  -> lai_677;
+  pck1 -> lai_605;
+  pck2 -> lai_605;
+  pck2 -> lai_676;
+  pck3 -> lai_605;
+  pck4 -> lai_676;
+  pck5 -> lai_676;
+  l1   -> lai_605;
   l1   -> lai_700;
-  l2   -> lai_xxx;
-  l2   -> lai_525;
+  l2   -> lai_676;
+  l2   -> lai_605;
   l2   -> lai_700;
-  l3   -> lai_yyy;
+  l3   -> lai_677;
   l3   -> lai_700;
-  l4   -> lai_yyy;
+  l4   -> lai_677;
   l4   -> lai_700;
 
   edge [style=invis];

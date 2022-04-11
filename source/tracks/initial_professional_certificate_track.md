@@ -78,7 +78,7 @@ already have a strong content background in computer science.
 
 | Course                                                                 | Credits |
 | ---------------------------------------------------------------------- | ------- |
-| [LAI 525](#lai-525): Critical Computational Literacies                 | 3       |
+| [LAI 605](#lai-605): Critical Computational Literacies                 | 3       |
 | [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       |
 | LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |
 | LAI 667: Field Experience                                              | 3       |
@@ -88,7 +88,7 @@ already have a strong content background in computer science.
 
 | Course                                                                 | Credits |
 | ---------------------------------------------------------------------- | ------- |
-| [LAI XXX](#lai-XXX): The Pedagogy of Programming                       | 3       |
+| [LAI 676](#lai-676): The Pedagogy of Programming                       | 3       |
 | LAI 562: English Language Learners: Emergent Theory and Practices      | 3       |
 | LAI 668: Supervised Teaching I                                         | 3       |
 | LAI 595: Supervised Teaching II                                        | 3       |
@@ -98,7 +98,7 @@ already have a strong content background in computer science.
 
 | Course                                                                                        | Credits |
 | ----------------------------------------------------------------                              | ------- |
-| [LAI YYY](#lai-YYY): Survey of Topics in K12 Computer Science                                 | 3       |
+| [LAI 677](#lai-677): Survey of Topics in K12 Computer Science                                 | 3       |
 | LAI 515 Action Research to Improve Teaching and Learning                                      | 3       |
 | LAI 552: Middle Childhood/Adolescence Literacy Methods OR LAI 551: Childhood Literacy Methods | 3       |
 | LAI 574: Teaching the Exceptional Learner                                                     | 3       |
@@ -136,9 +136,9 @@ digraph G {
 
   node [width=1]
 
-  lai_xxx [label="LAI XXX" shape="box"]
-  lai_yyy [label="LAI YYY" shape="box"]
-  lai_525 [label="LAI 525" shape="box"]
+  lai_676 [label="LAI 676" shape="box"]
+  lai_677 [label="LAI 677" shape="box"]
+  lai_605 [label="LAI 605" shape="box"]
   lai_574 [label="LAI 574" shape="box"]
   lai_663 [label="LAI 663" shape="box"]
   lai_562 [label="LAI 562" shape="box"]
@@ -162,29 +162,29 @@ digraph G {
   pk5  -> lai_611;
   pk5  -> lai_698;
   pk6  -> lai_698;
-  pck1 -> lai_525;
+  pck1 -> lai_605;
   pck1 -> lai_552;
-  pck2 -> lai_525;
+  pck2 -> lai_605;
   pck2 -> lai_663;
-  pck2 -> lai_xxx;
+  pck2 -> lai_676;
   pck2 -> lai_562;
   pck2 -> lai_552;
-  pck3 -> lai_525;
+  pck3 -> lai_605;
   pck3 -> lai_611;
   pck4 -> lai_611;
-  pck4 -> lai_xxx;
-  pck5 -> lai_xxx;
+  pck4 -> lai_676;
+  pck5 -> lai_676;
   pck5 -> lai_611;
-  l1   -> lai_525;
+  l1   -> lai_605;
   l1   -> lai_515;
   l1   -> lai_700;
-  l2   -> lai_xxx;
+  l2   -> lai_676;
   l2   -> lai_515;
-  l2   -> lai_525;
+  l2   -> lai_605;
   l2   -> lai_700;
-  l3   -> lai_yyy;
+  l3   -> lai_677;
   l3   -> lai_700;
-  l4   -> lai_yyy;
+  l4   -> lai_677;
   l4   -> lai_515;
   l4   -> lai_700;
 
