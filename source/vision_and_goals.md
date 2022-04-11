@@ -2,9 +2,9 @@
 title: Program vision and goals
 ---
 
-## Vision and Goals
+## Vision and goals
 
-### Program Vision
+### Program vision
 
 UB's Computer Science Education Program prepares graduates to be 
 effective teachers to all of their students, supporting their 
@@ -15,7 +15,7 @@ so they better reflect the priorities, values, and cultures of the
 communities they serve while incorporating what we know about 
 equitable teaching and learning in the digital age. 
 
-### Program Outcomes
+### Program outcomes
 
 Every track in the Computer Science Education Program is oriented to the same 
 program outcomes. However, tracks have different learning outcomes because they expect
@@ -27,7 +27,7 @@ incoming students to have a strong foundation in pedagogical knowledge, while th
 [Initial/Professional](#initialprofessional-certificate-track) tracks
 expect incoming students to have a strong foundation in CS content knowledge. 
 
-The Program Outcomes are aligned with 
+The program outcomes are aligned with 
 [New York's Computer Science and Digital Fluency Standards](http://www.nysed.gov/common/nysed/files/programs/curriculum-instruction/computer-science-digital-fluency-standards-k-12.pdf), 
 [New York's requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), as well as
 [CSTA's Standards for CS Teachers](https://csteachers.org/page/standards-for-cs-teachers-interactive) 
@@ -51,7 +51,7 @@ outcomes below.
 
 Pedagogical knowledge outcomes for CS teachers are defined by New York's 
 [requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject). 
-Several of New York's PK standards are addressed by PCK standards in UB's Program Outcomes
+Several of New York's PK standards are addressed by PCK standards in UB's program outcomes
 
 - Human development
 - Learning
@@ -89,9 +89,9 @@ which CS is well-positioned to help lead.
 - Interdisciplinary connections
 - Design and research
 
-## Summative assessments
+### Summative assessments
 
-### New York state teacher certification exams
+#### New York state teacher certification exams
 
 Passing scores on the following [NYSTCE exams](https://www.nystce.nesinc.com/)
 are required for initial certification. These exams will be required for graduates of 
@@ -105,13 +105,13 @@ and the [Initial/Professional Certificate Track](#initial-professional-certifica
 The NYSTCE content specialty exam in CS is currently under development. New York has historically 
 waived exam requirements while they are under development.
 
-### CS education capstone
+#### CS education capstone
 
 All tracks except for the [Initial Certificate Track](#initial-certificate-track) culminate with 
 [LAI 700](#lai-700): CS Education Capstone, in which teacher candidates complete a performance assessment
 and write a vision statement.
 
-#### Performance assessment
+##### Performance assessment
 
 Candidates will demonstrate competency in CS content knowledge and pedagogical content knowledge 
 by completing a performance assessment to be completed during the capstone course. This will 
@@ -124,7 +124,7 @@ involve two tasks which will require access to an authentic teaching context.
   Teach one or more lessons and administer the assessment. Analyze two student work samples 
   for evidence of learning, areas for growth, and possible teacher responses. 
 
-#### Vision statement
+##### Vision statement
 
 Additionally, candidates will articulate their vision for K-12 computer science education and 
 how they intend to pursue it. This is intended to be a practical document, useful for writing 
@@ -139,3 +139,16 @@ community of practice. The vision statement should address:
   be integrated into a school to how CS could be embedded into a community, a career, or a 
   broader project of activism. 
 - A roadmap for how this might be achieved. This should be realistic and actionable. 
+
+### Continuous improvement
+
+The CS Teacher Preparation Program will engage in a process of continuous improvement, 
+collecting and anaylzing data around program outcomes and engaging in regular 
+self-assessment and external evaluation in dialogue with all program stakeholders. 
+Data collected will include matriculation and graduation statistics, student course evaluations,
+and course summative assessments aligned with program outcomes. 
+These processes will center on two annual retreats, one at the beginning of the academic year
+and one toward the end of the academic year. All program faculty and staff will be invited, as well
+as representatives of partner schools and communities and external colleagues also involved in 
+CS teacher preparation. These retreats will provide opportunities to surface issues and consider 
+program-level changes which could address them. 

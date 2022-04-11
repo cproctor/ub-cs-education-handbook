@@ -43,8 +43,9 @@ provides definitive information on admissions, program requirements, and policie
 in case of a discrepancy between this handbook and the LAI website assume the latter is correct.
 
 This handbook was written by Dr. Chris Proctor, with substantial feedback and input from 
-Dr. Beth Etopio, Dr. Erin Kearney, and Dr. Anne Izydorczak. Any errors are the sole 
-responsibility of Dr. Proctor.
+Dr. Beth Etopio, Dr. Erin Kearney, and Dr. Anne Izydorczak. Thanks to Dr. J. Ben Schafer and Dr. 
+Michelle Friend for the feedback they provided as external program reviewers.
+Any errors are the sole responsibility of Dr. Proctor.
 
 That said, we strive to keep this document accurate and up-to-date. 
 Please contact Dr. Chris Proctor ([chrisp@buffalo.edu](mailto:chrisp@buffalo.edu)) 
