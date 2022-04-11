@@ -1,5 +1,5 @@
 defaults:
 - defaults/base.yaml
-#template: journal_article.latex
+template: journal_article.latex
 output-file: ub_cs_education_handbook.pdf
 
