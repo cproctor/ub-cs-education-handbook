@@ -22,13 +22,10 @@ You will need the following packages installed. If using a mac, these can all be
 
 ## Building the handbook
 
-To build the handbook run `pandoc` with the default settings:
+To build the handbook run `pandoc` with the defaults file corresponding to the output format you want:
 
-    pandoc  -d defaults/handbook.yaml
-
-To build other formats, specify an output file:
-
-    pandoc  -d defaults/handbook.yaml -o ub_cs_handbook.0.0.2.pdf
+    pandoc  -d defaults/html.yaml
+    pandoc  -d defaults/pdf.yaml
 
 See the [Pandoc manual](https://pandoc.org/MANUAL.html) for all the available
 options.

@@ -23,6 +23,7 @@ input-files:
   - source/courses/lai_686.md
   - source/courses/lai_700.md
   - source/courses/dee_520.md
+  - source/appendices/changelog.md
   - source/appendices/csta_standards.md
   - source/appendices/resources.md
 
