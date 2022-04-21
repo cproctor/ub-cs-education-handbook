@@ -58,11 +58,12 @@ class DataWriter:
         if token == "@table" and category == "alignment":
             if label not in tracks: 
                 raise ValueError(f"Track {track} not recognized.")
-            return get_alignments(
-                tracks[label]["courses"], 
+            md = get_alignments(
+                sorted(tracks[label]["courses"]), 
                 tracks[label]["outcomes"],
                 as_markdown=True
-            ).split('\n')
+            )
+            return [line + '\n' for line in md.split('\n')]
         raise ValueError(f"Could not generate {token}:{category}:{label}")
         
     def iterate_past_table(self, inlines):
