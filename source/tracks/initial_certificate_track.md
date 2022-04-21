@@ -90,17 +90,16 @@ The table below aligns Initial Certificate Track learning outcomes with courses
 providing summative assessments of this learning.
 
 ` @table:alignment:initial `{=comment}
-
-| Learning outcome                           | LAI 552 | LAI 562 | LAI 574 | LAI 611 | LAI 663 | LAI 698 |
-| ---------------------------------------    | ------- | ------- | ------- | ------- | ------- | ------- |
-| PK1: Human development                     |         | X       | X       |         | X       |         |
-| PK2: Learning                              |         |         | X       |         | X       |         |
-| PK3: Supporting students with disabilities |         |         | X       | X       |         |         |
-| PK4: Language acquisition and literacy     | X       | X       |         | X       |         |         |
-| PK5: Curriculum and instruction            |         |         |         |         |         | X       |
-| PK6: Professional practice and obligations |         |         |         |         |         | X       |
-| PCK1: Computing as a literacy              | X       |         |         |         |         |         |
-| PCK2: Supporting learner identities        | X       | X       |         |         | X       |         |
-| PCK3: Shaping the learning environment     |         |         |         | X       |         |         |
-| PCK4: Teaching with computational media    |         |         |         | X       |         |         |
-| PCK5: Feedback and assessment              |         |         |         | X       |         |         |
+| code   | 552   | 562   | 574   | 595   | 611   | 663   | 667   | 668   | 674   | 698   |
+|:-------|:------|:------|:------|:------|:------|:------|:------|:------|:------|:------|
+| PK1    |       | X     | X     |       |       | X     |       |       |       |       |
+| PK2    |       |       | X     |       |       | X     |       |       |       |       |
+| PK3    |       |       | X     |       | X     |       |       |       |       |       |
+| PK4    | X     | X     |       |       | X     |       |       |       |       |       |
+| PK5    |       |       |       |       |       |       |       |       |       | X     |
+| PK6    |       |       |       |       |       |       |       |       |       | X     |
+| PCK1   | X     |       |       |       |       |       |       |       |       |       |
+| PCK2   | X     | X     |       |       |       | X     |       |       |       |       |
+| PCK3   |       |       |       |       | X     |       |       |       |       |       |
+| PCK4   |       |       |       |       | X     |       |       |       |       |       |
+| PCK5   |       |       |       |       | X     |       |       |       |       |       |

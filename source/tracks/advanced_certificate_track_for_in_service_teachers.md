@@ -86,18 +86,19 @@ Students will choose one of the following electives:
 The table below aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
-| Learning outcome                        | LAI 605 | LAI 676 | LAI 677 | LAI 700 |
-| --------------------------------------- | ------- | ------- | ------- | ------- |
-| CK1: Impacts of computing               |         |         | X       |         |
-| CK2: Computational thinking             |         | X       | X       |         |
-| CK3: Networks and system design         |         |         | X       |         |
-| CK4: Cybersecurity                      |         |         | X       |         |
-| PCK1: Computing as a literacy           | X       |         |         |         |
-| PCK2: Supporting learner identities     | X       | X       |         |         |
-| PCK3: Shaping the learning environment  | X       |         |         |         |
-| PCK4: Teaching with computational media |         | X       |         |         |
-| PCK5: Feedback and assessment           |         | X       |         |         |
-| L1: Equity and opportunity              | X       |         |         | X       |
-| L2: Connected learning                  | X       | X       |         | X       |
-| L3: Interdisciplinary connections       |         |         | X       | X       |
-| L4: Design and research                 |         |         | X       | X       |
+` @table:alignment:advanced_certificate `{=comment}
+| code   | 605   | 676   | 677   | 700   |
+|:-------|:------|:------|:------|:------|
+| CK1    |       |       | X     |       |
+| CK2    |       | X     | X     |       |
+| CK3    |       |       | X     |       |
+| CK4    |       |       | X     |       |
+| PCK1   | X     |       |       |       |
+| PCK2   | X     | X     |       |       |
+| PCK3   | X     |       |       |       |
+| PCK4   |       | X     |       |       |
+| PCK5   |       | X     |       |       |
+| L1     | X     |       |       | X     |
+| L2     | X     | X     |       | X     |
+| L3     |       |       | X     | X     |
+| L4     |       |       | X     | X     |
