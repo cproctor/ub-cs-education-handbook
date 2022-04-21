@@ -63,7 +63,7 @@ class DataWriter:
                 tracks[label]["outcomes"],
                 as_markdown=True
             )
-            return [line + '\n' for line in md.split('\n')]
+            return [line + '\n' for line in [''] + md.split('\n')]
         raise ValueError(f"Could not generate {token}:{category}:{label}")
         
     def iterate_past_table(self, inlines):

@@ -19,6 +19,6 @@ def get_alignments(courses=None, outcomes=None, as_markdown=False):
     if outcomes:
         df = df.loc[outcomes]
     if as_markdown:
-        return df.replace(False, "").replace(True, "X").to_markdown()
+        return df.replace(False, "").replace(True, "X").to_markdown(tablefmt="github")
     else:
         return df
