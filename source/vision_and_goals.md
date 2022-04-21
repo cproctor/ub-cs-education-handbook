@@ -42,26 +42,23 @@ are aligned with four of the five core concepts defined by
 concept, "Digital literacy," is addressed in the pedagogical content knowledge 
 outcomes below.
 
-- Impacts of computing
-- Computational thinking
-- Networks and system design
-- Cybersecurity
+- CK1: Impacts of computing
+- CK2: Computational thinking
+- CK3: Networks and system design
+- CK4: Cybersecurity
 
 #### Pedagogical Knowledge
 
 Pedagogical knowledge outcomes for CS teachers are defined by New York's 
 [requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject). 
-Several of New York's PK standards are addressed by PCK standards in UB's program outcomes
+Several of New York's PK standards are addressed by PCK and L standards in UB's program outcomes.
 
-- Human development
-- Learning
-- Supporting students with disabilities
-- Language acquisition and literacy
-- Curriculum and instruction
-- Classroom use of technology (Addressed by PCK: Teaching with computational media)
-- Assessment (Addressed by PCK: Feedback and assessment)
-- Education in society (Addressed by L: Connected learning)
-- Professional practice and obligations
+- PK1: Human development
+- PK2: Learning
+- PK3: Supporting students with disabilities
+- PK4: Language acquisition and literacy
+- PK5: Curriculum and instruction
+- PK6: Professional practice and obligations
 
 #### Pedagogical Content Knowledge
 
@@ -69,11 +66,11 @@ Pedagogical content knowledge is knowledge of how a specific discipline is learn
 effectively taught. The outcomes below are the central pedagogical practices emphasized by UB's 
 Computer Science Education Program. 
 
-- Computing as a literacy
-- Supporting learner identities
-- Shaping the learning environment
-- Teaching with computational media
-- Feedback and assessment
+- PCK1: Computing as a literacy
+- PCK2: Supporting learner identities
+- PCK3: Shaping the learning environment
+- PCK4: Teaching with computational media
+- PCK5: Feedback and assessment
 
 #### Leadership
 
@@ -84,10 +81,10 @@ long-standing inequities while opening the potential for substantial change in t
 structure of schools and their roles within communities and within the economy, 
 which CS is well-positioned to help lead. 
 
-- Equity and opportunity
-- Connected learning
-- Interdisciplinary connections
-- Design and research
+- L1: Equity and opportunity
+- L2: Connected learning
+- L3: Interdisciplinary connections
+- L4: Design and research
 
 ### Summative assessments
 

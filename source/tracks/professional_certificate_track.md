@@ -137,3 +137,25 @@ digraph G {
   }
 }
 ```
+
+| Learning outcome                           | LAI 552 | LAI 562 | LAI 574 | LAI 611 | LAI 663 | LAI 698 |
+| ---------------------------------------    | ------- | ------- | ------- | ------- | ------- | ------- |
+| CK1: Impacts of computing                  |         |         |         |         |         |         |
+| CK2: Computational thinking                |         |         |         |         |         |         |
+| CK3: Networks and system design            |         |         |         |         |         |         |
+| CK4: Cybersecurity                         |         |         |         |         |         |         |
+| PK1: Human development                     |         |         |         |         |         |         |
+| PK2: Learning                              |         |         |         |         |         |         |
+| PK3: Supporting students with disabilities |         |         |         |         |         |         |
+| PK4: Language acquisition and literacy     |         |         |         |         |         |         |
+| PK5: Curriculum and instruction            |         |         |         |         |         |         |
+| PK6: Professional practice and obligations |         |         |         |         |         |         |
+| PCK1: Computing as a literacy              |         |         |         |         |         |         |
+| PCK2: Supporting learner identities        |         |         |         |         |         |         |
+| PCK3: Shaping the learning environment     |         |         |         |         |         |         |
+| PCK4: Teaching with computational media    |         |         |         |         |         |         |
+| PCK5: Feedback and assessment              |         |         |         |         |         |         |
+| L1: Equity and opportunity                 |         |         |         |         |         |         |
+| L2: Connected learning                     |         |         |         |         |         |         |
+| L3: Interdisciplinary connections          |         |         |         |         |         |         |
+| L4: Design and research                    |         |         |         |         |         |         |
