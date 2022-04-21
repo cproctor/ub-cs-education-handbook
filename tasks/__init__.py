@@ -18,9 +18,11 @@ def alignments_for_track(c, track, interact=False):
         code.interact(local=locals())
 
 @task
-def update(c):
+def update(c, dryrun=False):
+    "Rewrite dynamic tables in source docs"
     from tasks.writer import DataWriter
     writer = DataWriter("source")
+    writer.update_source_dir(dryrun=dryrun)
 
 @task
 def test(c):

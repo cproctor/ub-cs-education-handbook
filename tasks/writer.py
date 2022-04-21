@@ -20,10 +20,10 @@ class DataWriter:
         if not self.sourcedir.exists():
             raise ValueError(f"Path {self.sourcedir} does not exist.")
 
-    def update_source_dir(self, sourcedir, dryrun=False):
+    def update_source_dir(self, dryrun=False):
         "Writes updates to source file for all markdown files in sourcedir."
-        for filepath in Path(sourcedir).glob("**/*.md"):
-            self.update_source_dir(fileapth, dryrun=dryrun)
+        for filepath in Path(self.sourcedir).glob("**/*.md"):
+            self.update_source_file(filepath, dryrun=dryrun)
 
     def update_source_file(self, filepath, dryrun=False, silent=False):
         "Writes updates to source file."
@@ -34,17 +34,17 @@ class DataWriter:
                 while True:
                     line = next(inlines)
                     outlines.append(line)
-                    marker = self.read_token(line)
-                    if marker and marker[0] == self.marker["table"]["token"]:
+                    marker = self.read_marker(line)
+                    if marker and marker[0] == self.markers["table"]["token"]:
                         discarded_lines = self.iterate_past_table(inlines)
                         replacement_lines = self.generate_table_markdown(*marker)
                         outlines += replacement_lines
                         if dryrun and not silent:
                             print(line)
                             print("OLD")
-                            print(discarded_lines.join('\n'))
+                            print(''.join(discarded_lines))
                             print("\nNEW")
-                            print(replacement_lines.join('\n'))
+                            print('\n'.join(replacement_lines))
             except StopIteration:
                 pass
         if not dryrun:
@@ -62,7 +62,8 @@ class DataWriter:
                 tracks[label]["courses"], 
                 tracks[label]["outcomes"],
                 as_markdown=True
-            )
+            ).split('\n')
+        raise ValueError(f"Could not generate {token}:{category}:{label}")
         
     def iterate_past_table(self, inlines):
         discard = []

@@ -1,5 +1,6 @@
 from pathlib import Path
 import yaml
+import pandas as pd
 
 ALIGNMENTS = Path("data/alignments.yaml")
 COURSES = Path("data/courses.csv")
