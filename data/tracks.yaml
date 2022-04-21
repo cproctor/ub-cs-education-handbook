@@ -1,0 +1,96 @@
+initial:
+  outcomes:
+   - PK1
+   - PK2
+   - PK3
+   - PK4
+   - PK5
+   - PK6
+   - PCK1
+   - PCK2
+   - PCK3
+   - PCK4
+   - PCK5
+  courses:
+   - 663
+   - 611
+   - 698
+   - 667
+   - 574
+   - 562
+   - 552
+   - 668
+   - 595
+   - 674
+professional:
+  outcomes:
+   - PCK1
+   - PCK2
+   - PCK3
+   - PCK4
+   - PCK5
+   - L1
+   - L2
+   - L3
+   - L4
+  courses:
+   - 676
+   - 677
+   - 515
+   - 605
+   - 600
+   - 700
+initial_professional:
+  outcomes:
+   - PK1
+   - PK2
+   - PK3
+   - PK4
+   - PK5
+   - PK6
+   - PCK1
+   - PCK2
+   - PCK3
+   - PCK4
+   - PCK5
+   - L1
+   - L2
+   - L3
+   - L4
+  courses:
+   - 605
+   - 611
+   - 663
+   - 667
+   - 698
+   - 676
+   - 562
+   - 668
+   - 595
+   - 674
+   - 677
+   - 515
+   - 552
+   - 574
+   - 600
+   - 700
+advanced_certificate:
+  outcomes:
+   - CK1
+   - CK2
+   - CK3
+   - CK4
+   - PCK1
+   - PCK2
+   - PCK3
+   - PCK4
+   - PCK5
+   - L1
+   - L2
+   - L3
+   - L4
+  courses:
+   - 676
+   - 677
+   - 605
+   - 700

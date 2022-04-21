@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ub-cs-education-handbook"
+version = "0.1.0"
+description = "UB's Computer Science Teacher Preparation Program Handbook"
+authors = ["Chris Proctor <github.com@accounts.chrisproctor.net>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+invoke = "^1.7.0"
+pandas = "^1.4.2"
+pyaml = "^21.10.1"
+tabulate = "^0.8.9"
+more-itertools = "^8.12.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
