@@ -89,7 +89,7 @@ already have a strong content background in computer science.
 The table below aligns Initial Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
-` @table:alignments:initial `{=comment}
+` @table:alignment:initial `{=comment}
 
 | Learning outcome                           | LAI 552 | LAI 562 | LAI 574 | LAI 611 | LAI 663 | LAI 698 |
 | ---------------------------------------    | ------- | ------- | ------- | ------- | ------- | ------- |
