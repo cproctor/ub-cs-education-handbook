@@ -90,8 +90,9 @@ The table below aligns Initial Certificate Track learning outcomes with courses
 providing summative assessments of this learning.
 
 ` @table:alignment:initial `{=comment}
+
 | code   | 552   | 562   | 574   | 595   | 611   | 663   | 667   | 668   | 674   | 698   |
-|:-------|:------|:------|:------|:------|:------|:------|:------|:------|:------|:------|
+|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 | PK1    |       | X     | X     |       |       | X     |       |       |       |       |
 | PK2    |       |       | X     |       |       | X     |       |       |       |       |
 | PK3    |       |       | X     |       | X     |       |       |       |       |       |

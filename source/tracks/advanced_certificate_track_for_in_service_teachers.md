@@ -87,8 +87,9 @@ The table below aligns Initial/Professional Certificate Track learning outcomes 
 providing summative assessments of this learning.
 
 ` @table:alignment:advanced_certificate `{=comment}
+
 | code   | 605   | 676   | 677   | 700   |
-|:-------|:------|:------|:------|:------|
+|--------|-------|-------|-------|-------|
 | CK1    |       |       | X     |       |
 | CK2    |       | X     | X     |       |
 | CK3    |       |       | X     |       |
