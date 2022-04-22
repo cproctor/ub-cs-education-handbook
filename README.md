@@ -27,5 +27,16 @@ To build the handbook run `pandoc` with the defaults file corresponding to the o
     pandoc  -d defaults/html.yaml
     pandoc  -d defaults/pdf.yaml
 
+## Updating tables and lists
+
+Program outcomes, and the courses in which they are taught and assessed, appear throughout the handbook. In order 
+to keep them synchronized, a build task is avaiiable which updates tables and lists based on the data stored
+in `data`. In order to use these tasks:
+
+- Make sure [poetry](https://python-poetry.org/) is installed.
+- Run `poetry install`
+- Enter a `poetry shell`
+- Enter `inv --list` to see available tasks.
+
 See the [Pandoc manual](https://pandoc.org/MANUAL.html) for all the available
 options.
