@@ -90,7 +90,7 @@ providing summative assessments of this learning.
 
 | code   | 605   | 676   | 677   | 700   |
 |--------|-------|-------|-------|-------|
-| CK1    |       |       | X     |       |
+| CK1    |       | X     | X     |       |
 | CK2    |       | X     | X     |       |
 | CK3    |       |       | X     |       |
 | CK4    |       |       | X     |       |

@@ -9,6 +9,9 @@
  - PK1
  - PK4
  - PCK2
+573:
+ - CK1
+ - PCK2
 574:
  - PK1
  - PK2
@@ -34,6 +37,7 @@
  - PK2
  - PCK2
 676:
+ - CK1
  - CK2
  - PCK2
  - PCK4
