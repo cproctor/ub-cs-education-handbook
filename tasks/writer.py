@@ -10,6 +10,7 @@ tracks = yaml.safe_load(TRACKS.read_text())
 class DataWriter:
     """Updates representations of data in Markdown source. Allowed values:
         - @table:alignments:<track>
+        - @list:outcomes:<course>
     """
     markers = {
         "table": {"token": "@table", "regex": "@table:(\w+):(\w+)"},
