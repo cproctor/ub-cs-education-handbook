@@ -13,6 +13,7 @@ class DataWriter:
     """
     markers = {
         "table": {"token": "@table", "regex": "@table:(\w+):(\w+)"},
+        "list": {"token": "@list", "regex": "@list:(\w+):(\w+)"},
     }
 
     def __init__(self, sourcedir):
@@ -45,6 +46,16 @@ class DataWriter:
                             print(''.join(discarded_lines))
                             print("\nNEW")
                             print('\n'.join(replacement_lines))
+                    elif marker and marker[0] == self.markers["list"]["token"]:
+                        discarded_lines = self.iterate_past_list(inlines)
+                        replacement_lines = self.generate_list_markdown(*marker)
+                        outlines += replacement_lines
+                        if dryrun and not silent:
+                            print(line)
+                            print("OLD")
+                            print(''.join(discarded_lines))
+                            print("\nNEW")
+                            print('\n'.join(replacement_lines))
             except StopIteration:
                 pass
         if not dryrun:
@@ -65,19 +76,41 @@ class DataWriter:
             )
             return [line + '\n' for line in [''] + md.split('\n')]
         raise ValueError(f"Could not generate {token}:{category}:{label}")
+
+    def generate_list_markdown(self, token, category, label):
+        """Generates markdown for a list, initialized with something like:
+            @list:outcomes:676
+        """
+        if token == "@list" and category == "outcomes":
+            alignments = get_alignments()
+            if not label.isdigit() and int(label) in alignments.columns:
+                raise ValueError(f"Invalid course number: {label}")
+            outcomes = alignments.index[alignments[int(label)]]
+            return '\n' + '\n'.join(f" - {o}" for o in outcomes)
+        raise ValueError(f"Could not generate {token}:{category}:{label}")
         
     def iterate_past_table(self, inlines):
+        return self._iterate_past_whitespace_or_lines_starting_with(inlines, "|")
+
+    def iterate_past_list(self, inlines):
+        return self._iterate_past_whitespace_or_lines_starting_with(inlines, "-")
+
+    def _iterate_past_whitespace_or_lines_starting_with(self, inlines, startchar):
+        """Advances an iterator as long as lines are blank or their first non-whitespace character
+        is startchar. Returns a list of discarded lines.
+        See `iterate_past_table` and `iterate_past_list` for uses.
+        """
         discard = []
-        table_found = False
+        startchar_found = False
         while True:
             line = inlines.peek(None)
             if line is None:
                 break
             sline = line.strip()
-            if not ((sline == '' and not table_found) or sline.startswith('|')):
+            if not ((sline == '' and not startchar_found) or sline.startswith(startchar)):
                 break
-            if sline.startswith('|'):
-                table_found = True
+            if sline.startswith(startchar):
+                startchar_found = True
             discard.append(next(inlines))
         return discard
         
