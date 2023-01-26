@@ -103,3 +103,8 @@ providing summative assessments of this learning.
 | L2     | X     | X     |       | X     |
 | L3     |       |       | X     | X     |
 | L4     |       |       | X     | X     |
+
+### Teaching practicum
+
+The Advanced Certificate requires 50 hours of teaching practicum. Students will complete 30 hours of 
+practicum in [LAI 676](#lai-676) and an additional 20 hours in [LAI 700](#lai-700).

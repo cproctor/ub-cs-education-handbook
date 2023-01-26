@@ -24,6 +24,7 @@ input-files:
   - source/courses/dee_520.md
   - source/appendices/changelog.md
   - source/appendices/csta_standards.md
+  - source/appendices/field_experiences.md
   - source/appendices/resources.md
 
 table-of-contents: true
@@ -34,8 +35,8 @@ metadata:
   institution: University at Buffalo, SUNY
   email: chrisp@buffalo.edu
   title: UB Computer Science Education Handbook
-  date: "April 22, 2022"
-  version: "0.0.7"
+  date: "January 25, 2023"
+  version: "0.0.8 DRAFT"
 
 citeproc: true
 csl: apa-7th-edition

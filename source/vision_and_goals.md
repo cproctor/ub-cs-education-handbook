@@ -137,6 +137,9 @@ community of practice. The vision statement should address:
   broader project of activism. 
 - A roadmap for how this might be achieved. This should be realistic and actionable. 
 
+Research, design, and enactment of the vision statement will involve 20 hours of field 
+experience or teaching practicum. 
+
 ### Continuous improvement
 
 The CS Teacher Preparation Program will engage in a process of continuous improvement, 

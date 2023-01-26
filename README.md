@@ -40,3 +40,9 @@ in `data`. In order to use these tasks:
 
 See the [Pandoc manual](https://pandoc.org/MANUAL.html) for all the available
 options.
+
+## TODO
+
+- Put the coursework into a schedule.
+- Add fieldwork built into different courses.
+- Show how 100 hours of fieldwork will be achieved prior to residency for initial teachers. 

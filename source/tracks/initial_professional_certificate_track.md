@@ -33,7 +33,7 @@ with fewer required credit hours than completing both tracks separately. Graduat
 EdM dgree and 
 an institutional recommendation for NYS Initial and Professional Certifications 
 in CS, qualifying the holder to teach CS in New York schools. This track generally requires 
-two years of full-time coursework.
+one year of full-time coursework followed by a one-year residency placement in a school.
 
 ### Admission requirements
 

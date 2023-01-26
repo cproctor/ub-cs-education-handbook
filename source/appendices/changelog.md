@@ -10,3 +10,5 @@ title: History of changes
 - 0.0.7 (2022-04-22): Converted course/outcome alignments to tables, and added program outcomes 
   to course descriptions. Wrote software in the handbook respository to automatically update 
   tables and lists of course/outcome alignments. 
+- 0.08 (2023-01-25): Added provisions for yearlong residency and clarified field experience 
+  requirements for the advanced certificate track.

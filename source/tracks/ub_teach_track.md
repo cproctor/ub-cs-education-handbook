@@ -27,7 +27,9 @@ digraph G {
 ```
 
 UB Teach CS will be a combined bachelor's degree, EdM, initial, and professional certification, 
-all completed in five years.
+all completed in five years. The first three years are focused on CSE coursework; the last two years are 
+focused on teacher preparation coursework. The final year of the program is a yearlong residency placement
+in a school.
 
 **The UB Teach Track in CS is not yet available**. Prospective students interested in UB Teach CS are 
 invited to contact Dr. Chris Proctor ([chrisp@buffalo.edu](mailto:chrisp@buffalo.edu)) for the latest 
