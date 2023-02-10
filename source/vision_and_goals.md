@@ -18,8 +18,8 @@ equitable teaching and learning in the digital age.
 ## Program outcomes
 
 Every track in the Computer Science Education Program is oriented to the same 
-program outcomes. However, tracks focus on different learning goals because they expect
-incoming students to already have certain competencies.
+program outcomes. However, curricular emphasis on each outcome varies across tracks 
+because different tracks expect incoming students to already have certain competencies.
 For example, the [Advanced Certificate track](#advanced-certificate) expects
 incoming students to have a strong foundation in pedagogical knowledge, while the 
 [UB Teach](#ub-teach-track), [Initial](#initial-certificate-track), 
@@ -29,10 +29,9 @@ expect incoming students to have a strong foundation in CS content knowledge.
 
 The program outcomes are aligned with 
 [New York's Computer Science and Digital Fluency Standards](http://www.nysed.gov/common/nysed/files/programs/curriculum-instruction/computer-science-digital-fluency-standards-k-12.pdf), 
-[New York's requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), as well as
-[CSTA's Standards for CS Teachers](https://csteachers.org/page/standards-for-cs-teachers-interactive) 
-(See [Appendix I](#appendix-i-alignment-of-program-outcomes-with-csta-standards) for 
-alignment with CSTA Standards for CS Teachers).
+[New York's requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), 
+the [New York Teaching Standards](https://www.highered.nysed.gov/tcert/pdf/teachingstandards9122011.pdf) (See [Appendix I](#appendix-1-tpap)),
+as well as [CSTA's Standards for CS Teachers](https://csteachers.org/page/standards-for-cs-teachers-interactive) (See [Appendix II](#appendix-2-csta)).
 
 ### CS Content Knowledge
 
@@ -109,6 +108,10 @@ Teacher candidates in the
 [Initial Certificate Track](#initial-certificate-track), and the 
 [Initial/Professional Certificate Track](#initial-professional-certificate-track)
 are required to complete the Teacher Performance Assessment Portfolio.
+
+UB's Teacher Performance Assessment Portfolio is aligned with the New York Teaching Standards. 
+Please see [Appendix II](#appendix-2-tpap) for an alignment of program outcomes with the 
+New York Teaching Standards.
 
 ### Vision statement
 

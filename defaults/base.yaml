@@ -51,8 +51,8 @@ metadata:
   institution: University at Buffalo, SUNY
   email: chrisp@buffalo.edu
   title: UB Computer Science Education Handbook
-  date: "January 25, 2023"
-  version: "0.0.8 DRAFT"
+  date: "February 10, 2023"
+  version: "0.1.0"
 
 citeproc: true
 csl: apa-7th-edition

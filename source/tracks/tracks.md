@@ -59,28 +59,32 @@ digraph G {
 }
 ```
 
-TODO: Clean this up after re-defining tracks!
-
 For those with an undergraduate major in computer science (or meeting coursework prerequisites), 
 the [Initial Certificate Track](#initial-certificate-track) provides a Certificate of Advanced Study and 
-a recommendation for a NYS Initial Certification in CS. Coursework for the Initial certification takes 
-about one year, followed by a year-long residency in which teacher candidates are placed in classrooms 
+a recommendation for a NYS Initial Certification in CS. This track requires 30 credit hours.
+The Initial Certificate track requires 12 units of coursework (typically completed in one or two semesters), 
+followed by a year-long residency in which teacher candidates are placed in classrooms 
 under the supervision of a cooperating teacher. 
-The [Initial/Professional Certificate Track](#initial-professional-certificate-track) 
-combines initial and professional certification and requires fewer credit hours than completing 
-the programs separately. 
 
 The [Professional Certificate Track](#professional-certificate-track) 
 requires an additional year of coursework. Graduates earn an EdM degree and recommendation for 
-a NYS Professional Certification in CS.
+a NYS Professional Certification in CS. This track requires 30 credit hours, and can be completed in 
+one year of full-time study.
 
+The [Initial/Professional Certificate Track](#initial-professional-certificate-track) 
+combines initial and professional certification and requires fewer credit hours than completing 
+the programs separately. This track requires 48 credit hours and is typically completed in two years of full-time
+coursework. The second year is a residency in which teacher candidates are placed in classrooms
+under the supervision of a cooperating teacher.
 
 [UBTeach](#ub-teach-track) is a combined bachelor's degree, EdM, 
 initial, and professional certification, completed in five years.
+(UBTeach is not yet available for CS education.)
 
 For teachers holding a certificate in another discipline, the 
 [Advanced Certificate Track for In-Service Teachers](#advanced-certificate-track-for-in-service-teachers) 
-provides qualification to teach CS in New York public schools. 
+provides qualification to teach CS in New York public schools.  This track requires 15 credit hours, 
+and is designed for working professionals to complete at their own pace.
 
 Because the CS teaching certificate is still fairly new, most teachers currently teaching CS in New York are
 certified in other disciplines. Starting September 1, 2023, everyone teaching CS in New York will be 
