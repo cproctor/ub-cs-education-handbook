@@ -12,7 +12,7 @@ as well as transforming our education system to make it more just and equitable.
 
 It is an exciting time to be involved in K12 computer science education. 
 Our society is starting to come to terms with the technological change brought 
-about by computers over the last half century. If it was ever possible to imagine that 
+about by computers over the last half century. If it were ever possible to imagine that 
 technology would offer a straightforward path toward a bright future, the global pandemic
 has laid bare how computers are deeply implicated in our society's inequities and violence.
 
