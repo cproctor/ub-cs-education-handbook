@@ -31,5 +31,26 @@ def test(c):
     test_suite = unittest.TestLoader().discover("tests")
     unittest.TextTestRunner().run(test_suite)
 
+@task 
+def serve(c, defaults_file):
+    "Watch for changes and rebuild"
+    from watchdog.observers import Observer
+    from watchdog.events import FileSystemEventHandler
+    class PandocBuildEventHandler(FileSystemEventHandler):
+        def on_modified(self, event):
+            c.run(f"pandoc -d {defaults_file}")
+
+    observer = Observer()
+    handler = PandocBuildEventHandler()
+    observer.schedule(handler, "source", recursive=True)
+    observer.start()
+    try:
+        while observer.is_alive():
+            observer.join(1)
+    finally:
+        observer.stop()
+        observer.join()
+
+
     
 

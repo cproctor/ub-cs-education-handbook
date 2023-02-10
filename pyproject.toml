@@ -12,6 +12,7 @@ pandas = "^1.4.2"
 pyaml = "^21.10.1"
 tabulate = "^0.8.9"
 more-itertools = "^8.12.0"
+watchdog = "^2.2.1"
 
 [tool.poetry.dev-dependencies]
 
