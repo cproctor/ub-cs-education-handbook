@@ -2,7 +2,7 @@
 title: Tracks
 ---
 
-## Tracks
+# Tracks
 
 The UB Computer Science Education Program offers several tracks designed to meet the 
 needs of different students. If the diagram below has a path from where you are to where you 

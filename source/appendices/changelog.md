@@ -11,4 +11,4 @@ title: History of changes
   to course descriptions. Wrote software in the handbook respository to automatically update 
   tables and lists of course/outcome alignments. 
 - 0.08 (2023-01-25): Added provisions for yearlong residency and clarified field experience 
-  requirements for the advanced certificate track.
+  requirements for the advanced certificate track. Added section numbering for clarity.

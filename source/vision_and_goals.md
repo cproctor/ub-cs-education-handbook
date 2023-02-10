@@ -2,9 +2,9 @@
 title: Program vision and goals
 ---
 
-## Vision and goals
+# Vision and goals
 
-### Program vision
+## Program vision
 
 UB's Computer Science Education Program prepares graduates to be 
 effective teachers to all of their students, supporting their 
@@ -15,10 +15,10 @@ so they better reflect the priorities, values, and cultures of the
 communities they serve while incorporating what we know about 
 equitable teaching and learning in the digital age. 
 
-### Program outcomes
+## Program outcomes
 
 Every track in the Computer Science Education Program is oriented to the same 
-program outcomes. However, tracks have different learning outcomes because they expect
+program outcomes. However, tracks focus on different learning goals because they expect
 incoming students to already have certain competencies.
 For example, the [Advanced Certificate track](#advanced-certificate) expects
 incoming students to have a strong foundation in pedagogical knowledge, while the 
@@ -34,7 +34,7 @@ The program outcomes are aligned with
 (See [Appendix I](#appendix-i-alignment-of-program-outcomes-with-csta-standards) for 
 alignment with CSTA Standards for CS Teachers).
 
-#### CS Content Knowledge
+### CS Content Knowledge
 
 The content knowledge outcomes of UB's Computer Science Education Program
 are aligned with four of the five core concepts defined by 
@@ -47,7 +47,7 @@ outcomes below.
 - CK3: Networks and system design
 - CK4: Cybersecurity
 
-#### Pedagogical Knowledge
+### Pedagogical Knowledge
 
 Pedagogical knowledge outcomes for CS teachers are defined by New York's 
 [requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject). 
@@ -60,7 +60,7 @@ Several of New York's PK standards are addressed by PCK and L standards in UB's 
 - PK5: Curriculum and instruction
 - PK6: Professional practice and obligations
 
-#### Pedagogical Content Knowledge
+### Pedagogical Content Knowledge
 
 Pedagogical content knowledge is knowledge of how a specific discipline is learned and how it can be 
 effectively taught. The outcomes below are the central pedagogical practices emphasized by UB's 
@@ -72,7 +72,7 @@ Computer Science Education Program.
 - PCK4: Teaching with computational media
 - PCK5: Feedback and assessment
 
-#### Leadership
+### Leadership
 
 In many cases, computer science teachers will be helping to lead and design the courses, 
 departments, and fit of computer science within the school. UB's Computer Science Education 
@@ -86,9 +86,9 @@ which CS is well-positioned to help lead.
 - L3: Interdisciplinary connections
 - L4: Design and research
 
-### Summative assessments
+## Summative assessments
 
-#### New York state teacher certification exams
+### New York state teacher certification exams
 
 Passing scores on the following [NYSTCE exams](https://www.nystce.nesinc.com/)
 are required for initial certification. These exams will be required for graduates of 
@@ -102,13 +102,13 @@ and the [Initial/Professional Certificate Track](#initial-professional-certifica
 The NYSTCE content specialty exam in CS is currently under development. New York has historically 
 waived exam requirements while they are under development.
 
-#### CS education capstone
+### CS education capstone
 
 All tracks except for the [Initial Certificate Track](#initial-certificate-track) culminate with 
 [LAI 700](#lai-700): CS Education Capstone, in which teacher candidates complete a performance assessment
 and write a vision statement.
 
-##### Performance assessment
+#### Performance assessment
 
 Candidates will demonstrate competency in CS content knowledge and pedagogical content knowledge 
 by completing a performance assessment to be completed during the capstone course. This will 
@@ -121,7 +121,7 @@ involve two tasks which will require access to an authentic teaching context.
   Teach one or more lessons and administer the assessment. Analyze two student work samples 
   for evidence of learning, areas for growth, and possible teacher responses. 
 
-##### Vision statement
+#### Vision statement
 
 Additionally, candidates will articulate their vision for K-12 computer science education and 
 how they intend to pursue it. This is intended to be a practical document, useful for writing 
@@ -140,7 +140,7 @@ community of practice. The vision statement should address:
 Research, design, and enactment of the vision statement will involve 20 hours of field 
 experience or teaching practicum. 
 
-### Continuous improvement
+## Continuous improvement
 
 The CS Teacher Preparation Program will engage in a process of continuous improvement, 
 collecting and anaylzing data around program outcomes and engaging in regular 

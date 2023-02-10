@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-## Introduction
+# Introduction
 
 Welcome to the Computer Science Education Program at UB's Graduate School of Education. This program,
 one of the first in the nation, offers multiple paths to New York State teacher certification in 
@@ -32,13 +32,13 @@ Chris Proctor, PhD
 
 Director, CS teacher preparation
 
-### Faculty and staff
+## Faculty and staff
 
 Up-to-date list of faculty and staff in UB's Department of Learning and Instruction 
 can be found on the department's [faculty directory](http://ed.buffalo.edu/teaching/directory/faculty.html)
 and [staff directory](http://ed.buffalo.edu/teaching/directory/staff.html) webpages. 
 
-### Errors and omissions
+## Errors and omissions
 
 The [Department of Learning and Instruction's website](http://ed.buffalo.edu/teaching.html)
 provides definitive information on admissions, program requirements, and policies; 
@@ -49,13 +49,13 @@ Dr. Beth Etopio, Dr. Erin Kearney, and Dr. Anne Izydorczak. Thanks to Dr. J. Ben
 Michelle Friend for the feedback they provided as external program reviewers.
 Any errors are the sole responsibility of Dr. Proctor.
 
-That said, we strive to keep this document accurate and up-to-date. 
+We strive to keep this document accurate and up-to-date. 
 Please contact Dr. Chris Proctor ([chrisp@buffalo.edu](mailto:chrisp@buffalo.edu)) 
 with any errors, omissions, or outdated information. Pull requests to 
 [this handbook's GitHub repository](https://github.com/cproctor/ub-cs-education-handbook) 
 will be very warmly welcomed. 
 
-### Structure of this handbook
+## Structure of this handbook
 
 This handbook is designed for many audiences: prospective students, current students, professors and program 
 coordinators, and colleagues from other departments and institutions. 
@@ -66,6 +66,6 @@ identifying a track which matches their needs.
 **Current students** looking for details about requirements, courses, and policies should start with the 
 chapter on their track. 
 
-**Faculty and colleagues from other departments** may want to start by reading about the program's 
+**Faculty and colleagues from other departments or institutions** may want to start by reading about the program's 
 [vision and goals](#vision-and-goals) to understand how a single vision and set of program outcomes
 guide the organization of our tracks, courses, and assessments. 
