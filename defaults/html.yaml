@@ -2,4 +2,3 @@ defaults:
 - defaults/base.yaml
 template: cp.html
 output-file: ub_cs_education_handbook.html
-
