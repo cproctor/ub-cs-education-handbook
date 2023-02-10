@@ -2,7 +2,7 @@
 title: Alignment of Program Outcomes with New York State Teaching Standards
 ---
 
-## Appendix II: Alignment of Program Outcomes with New York State Teaching Standards
+## Appendix I: Alignment of Program Outcomes with New York State Teaching Standards {#appendix-1-tpap}
 
 ```{.graphviz caption="Alignment of Program Outcomes with New York State Teaching Standards"}
 digraph G {

@@ -2,7 +2,7 @@
 title: Alignment of Program Outcomes with CSTA Standards
 ---
 
-## Appendix III: Alignment of Program Outcomes with CSTA Standards
+## Appendix II: Alignment of Program Outcomes with CSTA Standards {#appendix-2-csta}
 
 ```{.graphviz caption="Alignment of Program Outcomes with CSTA Standards"}
 digraph G {
