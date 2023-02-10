@@ -30,8 +30,6 @@ Sincerely,
 
 Chris Proctor, PhD
 
-Director, CS teacher preparation
-
 ## Faculty and staff
 
 Up-to-date list of faculty and staff in UB's Department of Learning and Instruction 

@@ -23,7 +23,7 @@ professional:
    - L2
    - L3
    - L4
-  courses: [600, 605, 611, 676, 677, 700]
+  courses: [573, 605, 611, 676, 677, 700]
 initial_professional:
   outcomes:
    - PK1
@@ -41,7 +41,7 @@ initial_professional:
    - L2
    - L3
    - L4
-  courses: [515, 551, 562, 574, 595, 600, 605, 611, 663, 667, 668, 674, 676, 677, 698, 700]
+  courses: [515, 551, 562, 573, 574, 595, 605, 611, 663, 667, 668, 674, 676, 677, 698, 700]
 advanced_certificate:
   outcomes:
    - CK1

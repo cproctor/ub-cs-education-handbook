@@ -54,7 +54,7 @@ which should be taken in the final semester.
 
 | Course                                                                   | Credits   |
 | ------------------------------------------------------------------------ | --------- |
-| [LAI 600](#lai-600): Curriculum Integration and Assessment               | 3         |
+| [LAI 573](#lai-573): Technology as a Social Practice                     | 3         |
 | [LAI 605](#lai-605): Critical Computational Literacies                   | 3         |
 | [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12   | 3         |
 | [LAI 676](#lai-676): The Pedagogy of Programming                         | 3         |
@@ -79,12 +79,12 @@ providing summative assessments of this learning.
 
 ` @table:alignment:professional `{=comment}
 
-| code   | 600   | 605   | 611   | 676   | 677   | 700   |
+| code   | 573   | 605   | 611   | 676   | 677   | 700   |
 |--------|-------|-------|-------|-------|-------|-------|
 | PCK1   |       | X     |       |       |       |       |
 | PCK2   | X     | X     |       | X     |       |       |
-| PCK3   | X     | X     | X     |       |       |       |
-| PCK4   | X     |       | X     | X     |       |       |
+| PCK3   |       | X     | X     |       |       |       |
+| PCK4   |       |       | X     | X     |       |       |
 | PCK5   |       |       | X     | X     |       |       |
 | L1     |       | X     |       |       |       | X     |
 | L2     |       | X     |       | X     |       | X     |

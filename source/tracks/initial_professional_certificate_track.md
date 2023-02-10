@@ -91,8 +91,8 @@ already have a strong content background in computer science.
 | Course                                                                        | Credits |
 | ----------------------------------------------------------------------------- | ------- |
 | [LAI 562](#lai-562): English Language Learners: Emergent Theory and Practices | 3       |
+| [LAI 573](#lai-573): Technology as a Social Practice                          | 3       |
 | [LAI 574](#lai-574): Teaching the Exceptional Learner                         | 3       |
-| [LAI 600](#lai-600): Curriculum Integration and Assessment                    | 3       |
 | [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12        | 3       |
 | [LAI 677](#lai-677): Survey of Topics in K12 Computer Science                 | 3       |
 
@@ -117,18 +117,18 @@ providing summative assessments of this learning.
 
 ` @table:alignment:initial_professional `{=comment}
 
-| code   | 515   | 551   | 562   | 574   | 595   | 600   | 605   | 611   | 663   | 667   | 668   | 674   | 676   | 677   | 698   | 700   |
+| code   | 515   | 551   | 562   | 573   | 574   | 595   | 605   | 611   | 663   | 667   | 668   | 674   | 676   | 677   | 698   | 700   |
 |--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| PK1    |       |       | X     | X     |       |       |       |       | X     |       |       |       |       |       |       |       |
-| PK2    |       |       |       | X     |       | X     |       |       | X     |       |       |       |       |       |       |       |
-| PK3    |       |       |       | X     |       | X     |       | X     |       |       |       |       |       |       |       |       |
+| PK1    |       |       | X     |       | X     |       |       |       | X     |       |       |       |       |       |       |       |
+| PK2    |       |       |       |       | X     |       |       |       | X     |       |       |       |       |       |       |       |
+| PK3    |       |       |       |       | X     |       |       | X     |       |       |       |       |       |       |       |       |
 | PK4    |       |       | X     |       |       |       |       | X     |       |       |       |       |       |       |       |       |
-| PK5    |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |       |
+| PK5    |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
 | PK6    |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
 | PCK1   |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |       |
-| PCK2   |       |       | X     |       |       | X     | X     |       | X     |       |       |       | X     |       |       |       |
-| PCK3   | X     |       |       |       |       | X     | X     | X     |       |       |       |       |       |       |       |       |
-| PCK4   |       |       |       |       |       | X     |       | X     |       |       |       |       | X     |       |       |       |
+| PCK2   |       |       | X     | X     |       |       | X     |       | X     |       |       |       | X     |       |       |       |
+| PCK3   | X     |       |       |       |       |       | X     | X     |       |       |       |       |       |       |       |       |
+| PCK4   |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |       |
 | PCK5   |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |       |
 | L1     |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |
 | L2     | X     |       |       |       |       |       | X     |       |       |       |       |       | X     |       |       | X     |
