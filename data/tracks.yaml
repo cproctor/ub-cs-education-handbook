@@ -11,17 +11,7 @@ initial:
    - PCK3
    - PCK4
    - PCK5
-  courses:
-   - 663
-   - 611
-   - 698
-   - 667
-   - 574
-   - 562
-   - 552
-   - 668
-   - 595
-   - 674
+  courses: [605, 676, 698, 562, 574, 611, 668, 667, 515, 595, 674, 700]
 professional:
   outcomes:
    - PCK1
@@ -33,13 +23,7 @@ professional:
    - L2
    - L3
    - L4
-  courses:
-   - 676
-   - 677
-   - 515
-   - 605
-   - 600
-   - 700
+  courses: [600, 605, 611, 676, 677, 700]
 initial_professional:
   outcomes:
    - PK1
@@ -73,8 +57,4 @@ advanced_certificate:
    - L2
    - L3
    - L4
-  courses:
-   - 676
-   - 677
-   - 605
-   - 700
+  courses: [515, 676, 677, 605, 700]

@@ -15,9 +15,17 @@ input-files:
   - source/tracks/advanced_certificate_track_for_in_service_teachers.md
   - source/courses/courses.md
   - source/courses/lai_508.md
+  - source/courses/lai_515.md
+  - source/courses/lai_551.md
+  - source/courses/lai_552.md
+  - source/courses/lai_562.md
+  - source/courses/lai_573.md
+  - source/courses/lai_574.md
   - source/courses/lai_595.md
+  - source/courses/lai_600.md
   - source/courses/lai_605.md
   - source/courses/lai_611.md
+  - source/courses/lai_663.md
   - source/courses/lai_667.md
   - source/courses/lai_668.md
   - source/courses/lai_674.md
@@ -28,14 +36,15 @@ input-files:
   - source/courses/dee_520.md
   - source/appendices/appendices.md
   - source/appendices/changelog.md
+  - source/appendices/tpap.md
   - source/appendices/csta_standards.md
   - source/appendices/field_experiences.md
   - source/appendices/resources.md
 
 table-of-contents: true
 standalone: true
-number-sections: true
-number-offset: [-1,-1,-1,-1,-1]
+#number-sections: true
+#number-offset: [-1,-1,-1,-1,-1]
 
 metadata:
   author: Dr. Chris Proctor

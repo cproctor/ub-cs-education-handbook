@@ -2,9 +2,9 @@
 title: Field Experiences in the advanced certificate
 ---
 
-## Field experiences, practica, and student teaching
+## Appendix IV: NYSED policy regarding field experiences, practica, and student teaching
 
-The NYED [requirements for certification in a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), including CS, require 100 hours of field experiences, then 40 days of student teaching, with the following exception: 
+The NYSED [requirements for certification in a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), including CS, require 100 hours of field experiences, then 40 days of student teaching, with the following exception: 
 
 > Limited Exemption for candidates with prior teaching experience:
 >

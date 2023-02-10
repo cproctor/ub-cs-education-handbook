@@ -102,26 +102,15 @@ and the [Initial/Professional Certificate Track](#initial-professional-certifica
 The NYSTCE content specialty exam in CS is currently under development. New York has historically 
 waived exam requirements while they are under development.
 
-### CS education capstone
+### Teacher Performance Assessment Portfolio
 
-All tracks except for the [Initial Certificate Track](#initial-certificate-track) culminate with 
-[LAI 700](#lai-700): CS Education Capstone, in which teacher candidates complete a performance assessment
-and write a vision statement.
+Teacher candidates in the
+[UB Learns Track](#ub-learns-track), the 
+[Initial Certificate Track](#initial-certificate-track), and the 
+[Initial/Professional Certificate Track](#initial-professional-certificate-track)
+are required to complete the Teacher Performance Assessment Portfolio.
 
-#### Performance assessment
-
-Candidates will demonstrate competency in CS content knowledge and pedagogical content knowledge 
-by completing a performance assessment to be completed during the capstone course. This will 
-involve two tasks which will require access to an authentic teaching context. 
-
-- Planning and reflective practice: Outline a curriculum unit and plan one lesson in detail, 
-  aimed at supporting a core CS practice. Teach and record the lesson. Then reflect on how 
-  your pedagogical practices supported student practices. 
-- Analyzing student learning: Design a formative assessment aligned with a core CS concept. 
-  Teach one or more lessons and administer the assessment. Analyze two student work samples 
-  for evidence of learning, areas for growth, and possible teacher responses. 
-
-#### Vision statement
+### Vision statement
 
 Additionally, candidates will articulate their vision for K-12 computer science education and 
 how they intend to pursue it. This is intended to be a practical document, useful for writing 

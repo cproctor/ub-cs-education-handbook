@@ -19,7 +19,9 @@ digraph G {
 
 ### Audience
 
-The Professional Certificate Track is available to teachers holding initial certification in Computer Science wishing to earn professional certification. This track requires one year of full-time coursework.
+The Professional Certificate Track is available to teachers holding initial certification in 
+Computer Science wishing to earn professional certification. 
+This track requires one year of full-time coursework.
 
 ### Admission requirements
 
@@ -52,11 +54,11 @@ which should be taken in the final semester.
 
 | Course                                                                   | Credits   |
 | ------------------------------------------------------------------------ | --------- |
+| [LAI 600](#lai-600): Curriculum Integration and Assessment               | 3         |
+| [LAI 605](#lai-605): Critical Computational Literacies                   | 3         |
+| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12   | 3         |
 | [LAI 676](#lai-676): The Pedagogy of Programming                         | 3         |
 | [LAI 677](#lai-677): Survey of Topics in K12 Computer Science            | 3         |
-| LAI 515 Action Research to Improve Teaching and Learning                 | 3         |
-| [LAI 605](#lai-605): Critical Computational Literacies                   | 3         |
-| LAI 600 Curriculum Integration and Assessment                            | 3         |
 | [LAI 700](#lai-700): CS Education Capstone                               | 3         |
 | Electives                                                                | 12        |
 
@@ -77,14 +79,14 @@ providing summative assessments of this learning.
 
 ` @table:alignment:professional `{=comment}
 
-| code   | 515   | 600   | 605   | 676   | 677   | 700   |
+| code   | 600   | 605   | 611   | 676   | 677   | 700   |
 |--------|-------|-------|-------|-------|-------|-------|
-| PCK1   |       |       | X     |       |       |       |
-| PCK2   |       | X     | X     | X     |       |       |
+| PCK1   |       | X     |       |       |       |       |
+| PCK2   | X     | X     |       | X     |       |       |
 | PCK3   | X     | X     | X     |       |       |       |
-| PCK4   |       | X     |       | X     |       |       |
-| PCK5   |       |       |       | X     |       |       |
-| L1     |       |       | X     |       |       | X     |
-| L2     | X     |       | X     | X     |       | X     |
+| PCK4   | X     |       | X     | X     |       |       |
+| PCK5   |       |       | X     | X     |       |       |
+| L1     |       | X     |       |       |       | X     |
+| L2     |       | X     |       | X     |       | X     |
 | L3     |       |       |       |       | X     | X     |
-| L4     | X     |       |       |       | X     | X     |
+| L4     |       |       |       |       | X     | X     |

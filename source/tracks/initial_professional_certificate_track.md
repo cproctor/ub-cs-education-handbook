@@ -10,7 +10,7 @@ digraph G {
   rankdir="LR"
 
   cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework" shape="box"]
-  initial [label="Initial coursework"]
+  initial [label="Initial coursework\n& residency"]
   professional [label="Professional coursework"]
   pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n Qualified to teach CS in NY" shape="box"]
 
@@ -29,8 +29,8 @@ digraph G {
 The Initial/Professional Certificate Track combines the 
 [Initial Certificate Track](#initial-certificate-track) and the 
 [Professional Certificate Track](#professional-certificate-track), 
-with fewer required credit hours than completing both tracks separately. Graduates earn an 
-EdM dgree and 
+with fewer required credit hours than completing both tracks separately 
+(48 credit hours instead of 60). Graduates earn an EdM dgree and 
 an institutional recommendation for NYS Initial and Professional Certifications 
 in CS, qualifying the holder to teach CS in New York schools. This track generally requires 
 one year of full-time coursework followed by a one-year residency placement in a school.
@@ -76,54 +76,61 @@ already have a strong content background in computer science.
 
 #### Fall Term 1 (15 credits)
 
-| Course                                                                 | Credits |
-| ---------------------------------------------------------------------- | ------- |
-| [LAI 605](#lai-605): Critical Computational Literacies                 | 3       |
-| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12 | 3       |
-| LAI 663: Sociocultural Dimensions of Learning and Human Development    | 3       |
-| LAI 667: Field Experience                                              | 3       |
-| LAI 698: Instructional Strategies                                      | 3       |
+| Course                                                                          | Credits |
+| ------------------------------------------------------------------------------- | ------- |
+| [LAI 551](#lai-551): Childhood Literacy Methods*                                | 3       |
+| [LAI 605](#lai-605): Critical Computational Literacies                          | 3       |
+| [LAI 663](#lai-663): Sociocultural Dimensions of Learning and Human Development | 3       |
+| [LAI 676](#lai-676): The Pedagogy of Programming                                | 3       |
+| [LAI 698](#lai-698): Instructional Strategies                                   | 3       |
+
+*Alternate: [LAI 552](#lai-552): Middle Childhood/Adolescence Literacy Methods
 
 #### Spring Term 1 (15 credits)
 
+| Course                                                                        | Credits |
+| ----------------------------------------------------------------------------- | ------- |
+| [LAI 562](#lai-562): English Language Learners: Emergent Theory and Practices | 3       |
+| [LAI 574](#lai-574): Teaching the Exceptional Learner                         | 3       |
+| [LAI 600](#lai-600): Curriculum Integration and Assessment                    | 3       |
+| [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12        | 3       |
+| [LAI 677](#lai-677): Survey of Topics in K12 Computer Science                 | 3       |
+
+#### Fall Term 2: Residency (9 credits)
+
 | Course                                                                 | Credits |
 | ---------------------------------------------------------------------- | ------- |
-| [LAI 676](#lai-676): The Pedagogy of Programming                       | 3       |
-| LAI 562: English Language Learners: Emergent Theory and Practices      | 3       |
-| LAI 668: Supervised Teaching I                                         | 3       |
-| LAI 595: Supervised Teaching II                                        | 3       |
-| LAI 674: Seminar in Teaching                                           | 3       |
+| [LAI 668](#lai-668): Supervised Teaching I                             | 3       |
+| [LAI 667](#lai-667): Field Experience                                  | 3       |
+| [LAI 515](#lai-515): Action Research to Improve Teaching and Learning  | 3       |
 
-#### Year 2 (18 credits)
+#### Spring Term 2: Residency (9 credits)
 
-| Course                                                                                        | Credits |
-| ----------------------------------------------------------------                              | ------- |
-| [LAI 677](#lai-677): Survey of Topics in K12 Computer Science                                 | 3       |
-| LAI 515 Action Research to Improve Teaching and Learning                                      | 3       |
-| LAI 552: Middle Childhood/Adolescence Literacy Methods OR LAI 551: Childhood Literacy Methods | 3       |
-| LAI 574: Teaching the Exceptional Learner                                                     | 3       |
-| LAI 600 Curriculum Integration and Assessment                                                 | 3       |
-| [LAI 700](#lai-700): CS Education Capstone                                                    | 3       |
+| Course                                                                 | Credits |
+| ---------------------------------------------------------------------- | ------- |
+| [LAI 595](#lai-595): Supervised Teaching II                            | 3       |
+| [LAI 674](#lai-674): Seminar in Teaching                               | 3       |
+| [LAI 700](#lai-700): CS Education Capstone                             | 3       |
 
 The following diagram aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
 ` @table:alignment:initial_professional `{=comment}
 
-| code   | 515   | 552   | 562   | 573   | 574   | 595   | 600   | 605   | 611   | 663   | 667   | 668   | 674   | 676   | 677   | 698   | 700   |
-|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| PK1    |       |       | X     |       | X     |       |       |       |       | X     |       |       |       |       |       |       |       |
-| PK2    |       |       |       |       | X     |       | X     |       |       | X     |       |       |       |       |       |       |       |
-| PK3    |       |       |       |       | X     |       | X     |       | X     |       |       |       |       |       |       |       |       |
-| PK4    |       | X     | X     |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |
-| PK5    |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |       |
-| PK6    |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
-| PCK1   |       | X     |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |       |
-| PCK2   |       | X     | X     | X     |       |       | X     | X     |       | X     |       |       |       | X     |       |       |       |
-| PCK3   | X     |       |       |       |       |       | X     | X     | X     |       |       |       |       |       |       |       |       |
-| PCK4   |       |       |       |       |       |       | X     |       | X     |       |       |       |       | X     |       |       |       |
-| PCK5   |       |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |       |
-| L1     |       |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |
-| L2     | X     |       |       |       |       |       |       | X     |       |       |       |       |       | X     |       |       | X     |
-| L3     |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       | X     |
-| L4     | X     |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       | X     |
+| code   | 515   | 551   | 562   | 574   | 595   | 600   | 605   | 611   | 663   | 667   | 668   | 674   | 676   | 677   | 698   | 700   |
+|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| PK1    |       |       | X     | X     |       |       |       |       | X     |       |       |       |       |       |       |       |
+| PK2    |       |       |       | X     |       | X     |       |       | X     |       |       |       |       |       |       |       |
+| PK3    |       |       |       | X     |       | X     |       | X     |       |       |       |       |       |       |       |       |
+| PK4    |       |       | X     |       |       |       |       | X     |       |       |       |       |       |       |       |       |
+| PK5    |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |       |
+| PK6    |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
+| PCK1   |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |       |
+| PCK2   |       |       | X     |       |       | X     | X     |       | X     |       |       |       | X     |       |       |       |
+| PCK3   | X     |       |       |       |       | X     | X     | X     |       |       |       |       |       |       |       |       |
+| PCK4   |       |       |       |       |       | X     |       | X     |       |       |       |       | X     |       |       |       |
+| PCK5   |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |       |
+| L1     |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |
+| L2     | X     |       |       |       |       |       | X     |       |       |       |       |       | X     |       |       | X     |
+| L3     |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       | X     |
+| L4     | X     |       |       |       |       |       |       |       |       |       |       |       |       | X     |       | X     |

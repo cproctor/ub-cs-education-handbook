@@ -2,7 +2,7 @@
 title: Alignment of Program Outcomes with CSTA Standards
 ---
 
-## Appendix II: Alignment of Program Outcomes with CSTA Standards
+## Appendix III: Alignment of Program Outcomes with CSTA Standards
 
 ```{.graphviz caption="Alignment of Program Outcomes with CSTA Standards"}
 digraph G {
@@ -47,25 +47,25 @@ digraph G {
 
   node [width=3.5]
 
-  ck1 [label="CK: Impacts of computing" shape="box"]
-  ck2 [label="CK: Computational thinking" shape="box"]
-  ck3 [label="CK: Networks and system design" shape="box"]
-  #ck4 [label="CK: Cybersecurity" shape="box"]
-  #pk1 [label="PK: Human development" shape="box"]
-  #pk2 [label="PK: Learning" shape="box"]
-  pk3 [label="PK: Supporting students with disabilities" shape="box"]
-  pk4 [label="PK: Language acquisition and literacy" shape="box"]
-  pk5 [label="PK: Curriculum and instruction" shape="box"]
-  #pk6 [label="PK: Professional practice and obligations" shape="box"]
-  #pck1 [label="PCK: Computing as a literacy" shape="box"]
-  pck2 [label="PCK: Supporting learner identities" shape="box"]
-  pck3 [label="PCK: Shaping the learning environment" shape="box"]
-  pck4 [label="PCK: Teaching with computational media" shape="box"]
-  pck5 [label="PCK: Feedback and assessment" shape="box"]
-  l1 [label="L: Equity and opportunity" shape="box"]
-  l2 [label="L: Connected learning" shape="box"]
-  l3 [label="L: Interdisciplinary connections" shape="box"]
-  l4 [label="L: Design and research" shape="box"]
+  ck1 [label="CK1: Impacts of computing" shape="box"]
+  ck2 [label="CK2: Computational thinking" shape="box"]
+  ck3 [label="CK3: Networks and system design" shape="box"]
+  #ck4 [label="CK4: Cybersecurity" shape="box"]
+  #pk1 [label="PK1: Human development" shape="box"]
+  #pk2 [label="PK2: Learning" shape="box"]
+  pk3 [label="PK3: Supporting students with disabilities" shape="box"]
+  pk4 [label="PK4: Language acquisition and literacy" shape="box"]
+  pk5 [label="PK5: Curriculum and instruction" shape="box"]
+  #pk6 [label="PK6: Professional practice and obligations" shape="box"]
+  #pck1 [label="PCK1: Computing as a literacy" shape="box"]
+  pck2 [label="PCK2: Supporting learner identities" shape="box"]
+  pck3 [label="PCK3: Shaping the learning environment" shape="box"]
+  pck4 [label="PCK4: Teaching with computational media" shape="box"]
+  pck5 [label="PCK5: Feedback and assessment" shape="box"]
+  l1 [label="L1: Equity and opportunity" shape="box"]
+  l2 [label="L2: Connected learning" shape="box"]
+  l3 [label="L3: Interdisciplinary connections" shape="box"]
+  l4 [label="L4: Design and research" shape="box"]
 
   csta1a -> ck2;
   csta1b -> ck1;

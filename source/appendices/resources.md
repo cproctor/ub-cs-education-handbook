@@ -2,7 +2,7 @@
 title: Resources
 ---
 
-## Appendix III: Resources for CS Teacher Preparation
+## Appendix V: Resources for CS Teacher Preparation
 
 - [CSTA Guidance for Schools of Education](https://csteachers.org/page/guidance-for-schools-of-education)
 - [Cornell Tech CS Coaching Kit](https://k12.tech.cornell.edu/what-we-do/cs-coaching-toolkit/)

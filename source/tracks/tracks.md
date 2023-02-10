@@ -20,8 +20,8 @@ digraph G {
   init_cert [label="Teachers holding\n initial certificate in CS" shape="box"]
   other_cert [label="Teachers holding a certificate\n in another discipline" shape="box"]
   ubteach [label="UB Teach"]
-  initial [label="Initial coursework"]
-  professional [label="Professional coursework"]
+  initial [label="Initial coursework\n& residency"]
+  professional [label="Professional\ncoursework"]
   advanced_certificate [label="Advanced certificate\n coursework"]
 
   node [width=5]
@@ -59,19 +59,28 @@ digraph G {
 }
 ```
 
+TODO: Clean this up after re-defining tracks!
+
 For those with an undergraduate major in computer science (or meeting coursework prerequisites), 
 the [Initial Certificate Track](#initial-certificate-track) provides a Certificate of Advanced Study and 
 a recommendation for a NYS Initial Certification in CS. Coursework for the Initial certification takes 
-about one year. The [Professional Certificate Track](#professional-certificate-track) 
-requires an additional year of coursework. Graduates earn an EdM degree and recommendation for 
-a NYS Professional Certification in CS.
+about one year, followed by a year-long residency in which teacher candidates are placed in classrooms 
+under the supervision of a cooperating teacher. 
 The [Initial/Professional Certificate Track](#initial-professional-certificate-track) 
 combines initial and professional certification and requires fewer credit hours than completing 
-the programs separately. [UBTeach](#ub-teach-track) is a combined bachelor's degree, EdM, 
+the programs separately. 
+
+The [Professional Certificate Track](#professional-certificate-track) 
+requires an additional year of coursework. Graduates earn an EdM degree and recommendation for 
+a NYS Professional Certification in CS.
+
+
+[UBTeach](#ub-teach-track) is a combined bachelor's degree, EdM, 
 initial, and professional certification, completed in five years.
 
 For teachers holding a certificate in another discipline, the 
-[Advanced Certificate Track for In-Service Teachers](#advanced-certificate-track-for-in-service-teachers) provides qualification to teach CS in New York public schools. 
+[Advanced Certificate Track for In-Service Teachers](#advanced-certificate-track-for-in-service-teachers) 
+provides qualification to teach CS in New York public schools. 
 
 Because the CS teaching certificate is still fairly new, most teachers currently teaching CS in New York are
 certified in other disciplines. Starting September 1, 2023, everyone teaching CS in New York will be 

@@ -11,7 +11,7 @@ digraph G {
 
   undergrad [label="Undergraduate UB student\n majoring in CSE" shape="box"]
   ubteach [label="UB Teach"]
-  initial [label="Initial coursework"]
+  initial [label="Initial coursework\n& residency"]
   professional [label="Professional coursework"]
   pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n Qualified to teach CS in NY" shape="box"]
 
