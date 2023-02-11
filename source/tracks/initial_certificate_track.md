@@ -75,7 +75,7 @@ However, the residency year is an integrated experience and courses must be take
 | ------------------------------------------------------------------------------- | ------- |
 | [LAI 605](#lai-605): Critical Computational Literacies                          | 3       |
 | [LAI 676](#lai-676): The Pedagogy of Programming                                | 3       |
-| [LAI 698](#lai-698): Instructional Strategies                                   | 3       |
+| [LAI 698](#lai-698): Instructional Strategies in Inclusive Classrooms           | 3       |
 
 #### Spring Term 1 (6 credits)
 

@@ -82,7 +82,7 @@ already have a strong content background in computer science.
 | [LAI 605](#lai-605): Critical Computational Literacies                          | 3       |
 | [LAI 663](#lai-663): Sociocultural Dimensions of Learning and Human Development | 3       |
 | [LAI 676](#lai-676): The Pedagogy of Programming                                | 3       |
-| [LAI 698](#lai-698): Instructional Strategies                                   | 3       |
+| [LAI 698](#lai-698): Instructional Strategies in Inclusive Classrooms           | 3       |
 
 *Alternate: [LAI 552](#lai-552): Middle Childhood/Adolescence Literacy Methods
 
