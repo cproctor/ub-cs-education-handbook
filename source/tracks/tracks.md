@@ -61,8 +61,8 @@ digraph G {
 
 For those with an undergraduate major in computer science (or meeting coursework prerequisites), 
 the [Initial Certificate Track](#initial-certificate-track) provides a Certificate of Advanced Study and 
-a recommendation for a NYS Initial Certification in CS. This track requires 30 credit hours.
-The Initial Certificate track requires 12 units of coursework (typically completed in one or two semesters), 
+a recommendation for a NYS Initial Certification in CS. This track requires 36 credit hours.
+The Initial Certificate track requires 18 units of coursework, 
 followed by a year-long residency in which teacher candidates are placed in classrooms 
 under the supervision of a cooperating teacher. 
 
