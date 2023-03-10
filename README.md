@@ -1,5 +1,7 @@
 # UB Computer Science Education Handbook
 
+***Looking for the latest version of the handbook? Look in the "Releases" section of the right sidebar.***
+
 This repository contains the source material for the CS education program handbook. 
 The source documents are written in [Markdown](https://daringfireball.net/projects/markdown/) 
 and built using [Pandoc](https://pandoc.org/MANUAL.html). 
