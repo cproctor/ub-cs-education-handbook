@@ -2,6 +2,8 @@ from pathlib import Path
 import re
 from more_itertools import peekable
 from tasks.table_generation import get_alignments
+from datetime import datetime
+import tomllib
 import yaml
 
 TRACKS = Path("data/tracks.yaml")
@@ -9,12 +11,14 @@ tracks = yaml.safe_load(TRACKS.read_text())
 
 class DataWriter:
     """Updates representations of data in Markdown source. Allowed values:
+        - @version
         - @table:alignments:<track>
         - @list:outcomes:<course>
     """
     markers = {
         "table": {"token": "@table", "regex": "@table:(\w+):(\w+)"},
         "list": {"token": "@list", "regex": "@list:(\w+):(\w+)"},
+        "version": {"token": "@version", "regex": "@version"},
     }
 
     def __init__(self, sourcedir):
@@ -46,7 +50,7 @@ class DataWriter:
                             print("OLD")
                             print(''.join(discarded_lines))
                             print("\nNEW")
-                            print('\n'.join(replacement_lines))
+                            print(''.join(replacement_lines))
                     elif marker and marker[0] == self.markers["list"]["token"]:
                         discarded_lines = self.iterate_past_list(inlines)
                         replacement_lines = self.generate_list_markdown(*marker)
@@ -56,7 +60,17 @@ class DataWriter:
                             print("OLD")
                             print(''.join(discarded_lines))
                             print("\nNEW")
-                            print('\n'.join(replacement_lines))
+                            print(''.join(replacement_lines))
+                    elif marker and marker[0] == self.markers["version"]["token"]:
+                        discarded_lines = self.iterate_past_version_declaration(inlines)
+                        replacement_lines = self.generate_version_declaration()
+                        outlines += replacement_lines
+                        if dryrun and not silent: 
+                            print(line)
+                            print("OLD")
+                            print(''.join(discarded_lines))
+                            print("\nNEW")
+                            print(''.join(replacement_lines))
             except StopIteration:
                 pass
         if not dryrun:
@@ -89,12 +103,35 @@ class DataWriter:
             outcomes = alignments.index[alignments[int(label)]]
             return '\n' + '\n'.join(f" - {o}" for o in outcomes)
         raise ValueError(f"Could not generate {token}:{category}:{label}")
+
+    def generate_version_declaration(self):
+        """Generates a version declaration, initialized with something like:
+            @version
+        """
+        with open('pyproject.toml', 'rb') as fh:
+            data = tomllib.load(fh)
+        version = data['tool']['poetry']['version']
+        timestamp = datetime.now().strftime("%B %-m, %Y")
+        return f"\nVersion {version}. Generated on {timestamp}."
         
     def iterate_past_table(self, inlines):
         return self._iterate_past_whitespace_or_lines_starting_with(inlines, "|")
 
     def iterate_past_list(self, inlines):
         return self._iterate_past_whitespace_or_lines_starting_with(inlines, "-")
+
+    def iterate_past_version_declaration(self, inlines):
+        """Advances through the first non-blank line.
+        """
+        discard = []
+        while True:
+            line = inlines.peek(None)
+            if line is None: 
+                break
+            discard.append(next(inlines))
+            if line.strip():
+                break
+        return discard
 
     def _iterate_past_whitespace_or_lines_starting_with(self, inlines, startchar):
         """Advances an iterator as long as lines are blank or their first non-whitespace character
