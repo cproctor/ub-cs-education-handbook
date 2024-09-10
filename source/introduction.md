@@ -4,8 +4,8 @@ title: Introduction
 
 # Introduction
 
-Welcome to the Computer Science Education Program at UB's Graduate School of Education. This program,
-one of the first in the nation, offers multiple paths to New York State teacher certification in 
+Welcome to the Computer Science Education Program at UB's Graduate School of Education. This program
+offers multiple paths to New York State teacher certification in 
 Computer Science and is the context for innovative research on K12 CS teaching and learning.
 Graduates will join a community of practice committed to providing high-quality CS learning opportunities
 as well as transforming our education system to make it more just and equitable. 
@@ -21,7 +21,7 @@ Youth today live new kinds of digital lives which were unimaginable to previous 
 schools need to adapt to meet their needs and welcome their identities and experiences.
 A more just and democratic society depends on informed and engaged democratic participation. Today, 
 that means cultivating vibrant and diverse cultures of computational literacy rooted in the communities
-and cultures served by our schools. We look forward to welcoming you into this community. 
+and cultures served by our schools. We look forward to building this community together.
 
 If you have any questions, please do not hesitate to contact me at 
 [chrisp@buffalo.edu](mailto:chrisp@buffalo.edu).
