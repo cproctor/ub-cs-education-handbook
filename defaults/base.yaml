@@ -16,6 +16,7 @@ input-files:
   - source/courses/courses.md
   - source/courses/lai_508.md
   - source/courses/lai_515.md
+  - source/courses/lai_516.md
   - source/courses/lai_551.md
   - source/courses/lai_552.md
   - source/courses/lai_562.md
@@ -31,7 +32,6 @@ input-files:
   - source/courses/lai_676.md
   - source/courses/lai_677.md
   - source/courses/lai_686.md
-  - source/courses/lai_700.md
   - source/courses/dee_520.md
   - source/appendices/appendices.md
   - source/appendices/tpap.md
@@ -50,8 +50,8 @@ metadata:
   institution: University at Buffalo, SUNY
   email: chrisp@buffalo.edu
   title: UB Computer Science Education Handbook
-  date: "February 10, 2023"
-  version: "0.1.0"
+  date: September 9, 2024
+  version: 1.0.0
 
 citeproc: true
 csl: apa-7th-edition

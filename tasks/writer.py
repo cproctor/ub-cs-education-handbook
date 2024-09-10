@@ -112,7 +112,7 @@ class DataWriter:
             data = tomllib.load(fh)
         version = data['tool']['poetry']['version']
         timestamp = datetime.now().strftime("%B %-m, %Y")
-        return f"\nVersion {version}. Generated on {timestamp}."
+        return f"\nVersion {version}. Generated on {timestamp}.\n"
         
     def iterate_past_table(self, inlines):
         return self._iterate_past_whitespace_or_lines_starting_with(inlines, "|")
