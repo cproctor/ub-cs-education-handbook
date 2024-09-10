@@ -110,27 +110,27 @@ already have a strong content background in computer science.
 | ---------------------------------------------------------------------- | ------- |
 | [LAI 595](#lai-595): Supervised Teaching II                            | 3       |
 | [LAI 674](#lai-674): Seminar in Teaching                               | 3       |
-| [LAI 700](#lai-700): CS Education Capstone                             | 3       |
+| [LAI 516](#lai-516): Infrastructure for K12 Computing Education        | 3       |
 
 The following diagram aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
 ` @table:alignment:initial_professional `{=comment}
 
-| code   | 515   | 551   | 562   | 573   | 574   | 595   | 605   | 611   | 663   | 667   | 668   | 674   | 676   | 677   | 698   | 700   |
+| code   | 515   | 516   | 551   | 562   | 573   | 574   | 595   | 605   | 611   | 663   | 667   | 668   | 674   | 676   | 677   | 698   |
 |--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| PK1    |       |       | X     |       | X     |       |       |       | X     |       |       |       |       |       |       |       |
-| PK2    |       |       |       |       | X     |       |       |       | X     |       |       |       |       |       |       |       |
-| PK3    |       |       |       |       | X     |       |       | X     |       |       |       |       |       |       |       |       |
-| PK4    |       |       | X     |       |       |       |       | X     |       |       |       |       |       |       |       |       |
-| PK5    |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
-| PK6    |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
-| PCK1   |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |       |
-| PCK2   |       |       | X     | X     |       |       | X     |       | X     |       |       |       | X     |       |       |       |
-| PCK3   | X     |       |       |       |       |       | X     | X     |       |       |       |       |       |       |       |       |
-| PCK4   |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |       |
-| PCK5   |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |       |
-| L1     |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       | X     |
-| L2     | X     |       |       |       |       |       | X     |       |       |       |       |       | X     |       |       | X     |
-| L3     |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       | X     |
-| L4     | X     |       |       |       |       |       |       |       |       |       |       |       |       | X     |       | X     |
+| PK1    |       |       |       | X     |       | X     |       |       |       | X     |       |       |       |       |       |       |
+| PK2    |       |       |       |       |       | X     |       |       |       | X     |       |       |       |       |       |       |
+| PK3    |       |       |       |       |       | X     |       |       | X     |       |       |       |       |       |       |       |
+| PK4    |       |       |       | X     |       |       |       |       | X     |       |       |       |       |       |       |       |
+| PK5    |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |
+| PK6    |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |
+| PCK1   |       |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |
+| PCK2   |       |       |       | X     | X     |       |       | X     |       | X     |       |       |       | X     |       |       |
+| PCK3   | X     |       |       |       |       |       |       | X     | X     |       |       |       |       |       |       |       |
+| PCK4   |       |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |
+| PCK5   |       |       |       |       |       |       |       |       | X     |       |       |       |       | X     |       |       |
+| L1     |       | X     |       |       |       |       |       | X     |       |       |       |       |       |       |       |       |
+| L2     | X     | X     |       |       |       |       |       | X     |       |       |       |       |       | X     |       |       |
+| L3     |       | X     |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |
+| L4     | X     | X     |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |

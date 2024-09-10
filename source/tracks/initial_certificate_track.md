@@ -99,23 +99,23 @@ However, the residency year is an integrated experience and courses must be take
 | ---------------------------------------------------------------------- | ------- |
 | [LAI 595](#lai-595): Supervised Teaching II                            | 3       |
 | [LAI 674](#lai-674): Seminar in Teaching                               | 3       |
-| [LAI 700](#lai-700): CS Education Capstone                             | 3       |
+| [LAI 516](#lai-516): Infrastructure for K12 Computing Education        | 3       |
 
 The table below aligns Initial Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
 ` @table:alignment:initial `{=comment}
 
-| code   | 515   | 562   | 574   | 595   | 605   | 611   | 667   | 668   | 674   | 676   | 698   | 700   |
+| code   | 515   | 516   | 562   | 574   | 595   | 605   | 611   | 667   | 668   | 674   | 676   | 698   |
 |--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| PK1    |       | X     | X     |       |       |       |       |       |       |       |       |       |
-| PK2    |       |       | X     |       |       |       |       |       |       |       |       |       |
-| PK3    |       |       | X     |       |       | X     |       |       |       |       |       |       |
-| PK4    |       | X     |       |       |       | X     |       |       |       |       |       |       |
-| PK5    |       |       |       |       |       |       |       |       |       |       | X     |       |
-| PK6    |       |       |       |       |       |       |       |       |       |       | X     |       |
-| PCK1   |       |       |       |       | X     |       |       |       |       |       |       |       |
-| PCK2   |       | X     |       |       | X     |       |       |       |       | X     |       |       |
-| PCK3   | X     |       |       |       | X     | X     |       |       |       |       |       |       |
-| PCK4   |       |       |       |       |       | X     |       |       |       | X     |       |       |
-| PCK5   |       |       |       |       |       | X     |       |       |       | X     |       |       |
+| PK1    |       |       | X     | X     |       |       |       |       |       |       |       |       |
+| PK2    |       |       |       | X     |       |       |       |       |       |       |       |       |
+| PK3    |       |       |       | X     |       |       | X     |       |       |       |       |       |
+| PK4    |       |       | X     |       |       |       | X     |       |       |       |       |       |
+| PK5    |       |       |       |       |       |       |       |       |       |       |       | X     |
+| PK6    |       |       |       |       |       |       |       |       |       |       |       | X     |
+| PCK1   |       |       |       |       |       | X     |       |       |       |       |       |       |
+| PCK2   |       |       | X     |       |       | X     |       |       |       |       | X     |       |
+| PCK3   | X     |       |       |       |       | X     | X     |       |       |       |       |       |
+| PCK4   |       |       |       |       |       |       | X     |       |       |       | X     |       |
+| PCK5   |       |       |       |       |       |       | X     |       |       |       | X     |       |

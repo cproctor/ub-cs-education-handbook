@@ -11,7 +11,7 @@ initial:
    - PCK3
    - PCK4
    - PCK5
-  courses: [605, 676, 698, 562, 574, 611, 668, 667, 515, 595, 674, 700]
+  courses: [605, 676, 698, 562, 574, 611, 668, 667, 515, 595, 674, 516]
 professional:
   outcomes:
    - PCK1
@@ -23,7 +23,7 @@ professional:
    - L2
    - L3
    - L4
-  courses: [573, 605, 611, 676, 677, 700]
+  courses: [573, 605, 611, 676, 677, 516]
 initial_professional:
   outcomes:
    - PK1
@@ -41,7 +41,7 @@ initial_professional:
    - L2
    - L3
    - L4
-  courses: [515, 551, 562, 573, 574, 595, 605, 611, 663, 667, 668, 674, 676, 677, 698, 700]
+  courses: [515, 551, 562, 573, 574, 595, 605, 611, 663, 667, 668, 674, 676, 677, 698, 516]
 advanced_certificate:
   outcomes:
    - CK1
@@ -57,4 +57,4 @@ advanced_certificate:
    - L2
    - L3
    - L4
-  courses: [515, 676, 677, 605, 700]
+  courses: [515, 676, 677, 605, 516]

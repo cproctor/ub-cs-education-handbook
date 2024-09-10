@@ -71,29 +71,29 @@ course.
 | [LAI 676](#lai-676): The Pedagogy of Programming                       | 3       |
 | [LAI 677](#lai-677): Survey of Topics in K12 Computer Science          | 3       |
 | [LAI 605](#lai-605): Critical Computational Literacies                 | 3       |
-| [LAI 700](#lai-700): CS Education Capstone                             | 3       |
+| [LAI 516](#lai-516): Infrastructure for K12 Computing Education        | 3       |
 
 The table below aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.
 
 ` @table:alignment:advanced_certificate `{=comment}
 
-| code   | 515   | 605   | 676   | 677   | 700   |
+| code   | 515   | 516   | 605   | 676   | 677   |
 |--------|-------|-------|-------|-------|-------|
-| CK1    |       |       | X     | X     |       |
-| CK2    |       |       | X     | X     |       |
-| CK3    |       |       |       | X     |       |
-| CK4    |       |       |       | X     |       |
-| PCK1   |       | X     |       |       |       |
-| PCK2   |       | X     | X     |       |       |
-| PCK3   | X     | X     |       |       |       |
-| PCK4   |       |       | X     |       |       |
-| PCK5   |       |       | X     |       |       |
-| L1     |       | X     |       |       | X     |
-| L2     | X     | X     | X     |       | X     |
-| L3     |       |       |       | X     | X     |
-| L4     | X     |       |       | X     | X     |
+| CK1    |       |       |       | X     | X     |
+| CK2    |       |       |       | X     | X     |
+| CK3    |       |       |       |       | X     |
+| CK4    |       |       |       |       | X     |
+| PCK1   |       |       | X     |       |       |
+| PCK2   |       |       | X     | X     |       |
+| PCK3   | X     |       | X     |       |       |
+| PCK4   |       |       |       | X     |       |
+| PCK5   |       |       |       | X     |       |
+| L1     |       | X     | X     |       |       |
+| L2     | X     | X     | X     | X     |       |
+| L3     |       | X     |       |       | X     |
+| L4     | X     | X     |       |       | X     |
 
 ### Teaching practicum
 
-The Advanced Certificate requires 50 hours of teaching practicum. Students will complete 25 hours of practicum in [LAI 515](#lai-515) and an additional 25 hours in [LAI 700](#lai-700).
+The Advanced Certificate requires 50 hours of teaching practicum. Students will complete 25 hours of practicum in [LAI 515](#lai-515) and an additional 25 hours in [LAI 516](#lai-516).

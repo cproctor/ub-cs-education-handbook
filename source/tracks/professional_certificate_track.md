@@ -49,8 +49,7 @@ knowledge into CS pedagogical content knowledge and leadership.
 
 ### Coursework
 
-Coursework consists of 30 credits. Courses may be taken in any order and pace except for LAI 700, 
-which should be taken in the final semester.
+Coursework consists of 30 credits. Courses may be taken in any order and pace.
 
 | Course                                                                   | Credits   |
 | ------------------------------------------------------------------------ | --------- |
@@ -59,7 +58,7 @@ which should be taken in the final semester.
 | [LAI 611](#lai-611): Methods in Teaching Computer Science, Grades 1-12   | 3         |
 | [LAI 676](#lai-676): The Pedagogy of Programming                         | 3         |
 | [LAI 677](#lai-677): Survey of Topics in K12 Computer Science            | 3         |
-| [LAI 700](#lai-700): CS Education Capstone                               | 3         |
+| [LAI 516](#lai-516): Infrastructure for K12 Computing Education          | 3         |
 | Electives                                                                | 12        |
 
 Students will choose from the following electives:
@@ -79,14 +78,14 @@ providing summative assessments of this learning.
 
 ` @table:alignment:professional `{=comment}
 
-| code   | 573   | 605   | 611   | 676   | 677   | 700   |
+| code   | 516   | 573   | 605   | 611   | 676   | 677   |
 |--------|-------|-------|-------|-------|-------|-------|
-| PCK1   |       | X     |       |       |       |       |
-| PCK2   | X     | X     |       | X     |       |       |
-| PCK3   |       | X     | X     |       |       |       |
-| PCK4   |       |       | X     | X     |       |       |
-| PCK5   |       |       | X     | X     |       |       |
-| L1     |       | X     |       |       |       | X     |
-| L2     |       | X     |       | X     |       | X     |
-| L3     |       |       |       |       | X     | X     |
-| L4     |       |       |       |       | X     | X     |
+| PCK1   |       |       | X     |       |       |       |
+| PCK2   |       | X     | X     |       | X     |       |
+| PCK3   |       |       | X     | X     |       |       |
+| PCK4   |       |       |       | X     | X     |       |
+| PCK5   |       |       |       | X     | X     |       |
+| L1     | X     |       | X     |       |       |       |
+| L2     | X     |       | X     |       | X     |       |
+| L3     | X     |       |       |       |       | X     |
+| L4     | X     |       |       |       |       | X     |
