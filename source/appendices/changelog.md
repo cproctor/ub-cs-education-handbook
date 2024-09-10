@@ -13,3 +13,6 @@ title: History of changes
 - 0.1.0 (2023-02-10): Added provisions for yearlong residency and clarified field experience 
   requirements for the advanced certificate track. Added section numbering for clarity.
   Reworked the appendices and added missing course descriptions.
+- 1.0.0 (2024-09-09): Removed information about SOCE, as the deadline has passed. Revised 
+  Advanced Certificate Track to emphasize eligibility of current preservice teachers. 
+  LAI 700: CS Capstone has been renamed LAI 516: Infrastructure for K12 Computing Education.

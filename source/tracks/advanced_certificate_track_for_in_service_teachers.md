@@ -1,14 +1,14 @@
 ---
-title: Advanced Certificate Track for In-Service Teachers
+title: Advanced Certificate Track
 ---
 
-## Advanced Certificate Track for In-Service Teachers
+## Advanced Certificate Track
 
-```{.graphviz caption="The Advanced Certificate Track for In-Service Teachers"}
+```{.graphviz caption="The Advanced Certificate Track"}
 digraph G {
   rank="max"
   rankdir="LR"
-  other_cert [label="Teachers holding a certificate\n in another discipline"]
+  other_cert [label="Teachers holding a certificate,\n or preservice teachers,\n in another discipline"]
   advanced_certificate [label="Advanced certificate\n coursework" shape="box"]
   adv_cert_outcome [label="Certificate of Advanced Study\n Qualified to teach CS in NY"]
   other_cert -> advanced_certificate -> adv_cert_outcome;
@@ -16,22 +16,27 @@ digraph G {
 ```
 ### Audience
 
-The Advanced Certificate Track for In-Service Teachers is designed for New York teachers currently holding 
-a teaching certificate in another discipline. 
+The Advanced Certificate Track is designed for New York teachers currently holding 
+a teaching certificate in another discipline, or for preservice teachers currently preparing
+to teach in another discipline. 
 This program builds on teachers’ expertise, experience, identities, and 
 commitments to grow into a new subject area. There are no content knowledge 
 prerequisites, however the program will require teachers to complete college-level 
 CS coursework and will draw on existing pedagogical knowledge and 
 pedagogical content knowledge in their current disciplines.
 
-The Advanced Certificate Track for In-Service Teachers is designed to be completed remotely by working 
-professionals at their own pace. An ongoing context of practice is required, as teachers will design and 
-implement interdisciplinary CS lessons as part of the program.
+The Advanced Certificate Track can be completed remotely by working 
+professionals at their own pace. An ongoing context of practice is required, 
+as teachers will design and implement interdisciplinary CS lessons as part of 
+the program.
 
 ### Admission requirements
 
-- **Initial or Professional NY teacher certification** in any discipline
-- **Teaching experience** (minimum one year recommended)
+- Either: 
+  - **Initial or Professional NY teacher certification** in any discipline and 
+  - **Teaching experience** (minimum one year recommended)
+- Or: 
+  - **Current enrollment in a teacher preparation program**.
 - **An ongoing context of practice** (classroom teaching, club) 
 - **Application essay** focused on vision for CS education
 - **Statement justifying preparation for CS coursework**
@@ -62,8 +67,7 @@ existing pedagogical content knowledge to CS.
 ### Coursework
 
 The Advanced Certificate consists of five courses and a total of 15 credit hours. 
-Courses may be taken in any order and at any pace, except for the culminating capstone
-course.
+Courses may be taken in any order and at any pace.
 
 | Course                                                                 | Credits |
 | ---------------------------------------------------------------------- | ------- |
@@ -72,6 +76,10 @@ course.
 | [LAI 677](#lai-677): Survey of Topics in K12 Computer Science          | 3       |
 | [LAI 605](#lai-605): Critical Computational Literacies                 | 3       |
 | [LAI 516](#lai-516): Infrastructure for K12 Computing Education        | 3       |
+
+Students with relevant prior experience may substitute a maximum of one course for another course, 
+with advisor permission. Additionally, students who complete LAI 515 as part of a UB teacher 
+preparation program also satisfy that requirement for the Advanced Certificate Program.
 
 The table below aligns Initial/Professional Certificate Track learning outcomes with courses 
 providing summative assessments of this learning.

@@ -94,12 +94,12 @@ are required for initial certification. These exams will be required for graduat
 the [UB Learns Track](#ub-learns-track), the [Initial Certificate Track](#initial-certificate-track),
 and the [Initial/Professional Certificate Track](#initial-professional-certificate-track).
 
-- edTPA
 - Educating All Students (EAS) test
 - Content Specialty Test (CST) in CS
 
-The NYSTCE content specialty exam in CS is currently under development. New York has historically 
-waived exam requirements while they are under development.
+The NYSTCE content specialty exam in CS is expected to be available starting summer 2025. 
+New York has historically waived exam requirements for those who complete programs prior
+to the release of exams.
 
 ### Teacher Performance Assessment Portfolio
 

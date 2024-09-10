@@ -18,7 +18,7 @@ digraph G {
   undergrad [label="Undergraduate UB student\n majoring in CSE" shape="box"]
   cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework" shape="box"]
   init_cert [label="Teachers holding\n initial certificate in CS" shape="box"]
-  other_cert [label="Teachers holding a certificate\n in another discipline" shape="box"]
+  other_cert [label="Teachers holding a certificate,\nor preservice teachers,\nin another discipline" shape="box"]
   ubteach [label="UB Teach"]
   initial [label="Initial coursework\n& residency"]
   professional [label="Professional\ncoursework"]
@@ -81,16 +81,9 @@ under the supervision of a cooperating teacher.
 initial, and professional certification, completed in five years.
 (UBTeach is not yet available for CS education.)
 
-For teachers holding a certificate in another discipline, the 
+For teachers holding a certificate in another discipline, or for preservice teachers working toward 
+certification in another discipline, the 
 [Advanced Certificate Track for In-Service Teachers](#advanced-certificate-track-for-in-service-teachers) 
 provides qualification to teach CS in New York public schools.  This track requires 15 credit hours, 
 and is designed for working professionals to complete at their own pace.
-
-Because the CS teaching certificate is still fairly new, most teachers currently teaching CS in New York are
-certified in other disciplines. Starting September 1, 2023, everyone teaching CS in New York will be 
-required to hold a CS teaching certificate or a 
-[CS Statement of Continuing Eligibility](http://www.highered.nysed.gov/tcert/certificate/computer-sci-soce.html) 
-(SOCE) which is valid for ten years. If you have been teaching CS in New York with certification in another 
-discipline, you should either enroll in the [Advanced Certificate Track](#advanced-certificate-track) or you should apply for the 
-SOCE before September 1, 2023.
 
