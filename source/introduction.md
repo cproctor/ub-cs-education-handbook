@@ -1,5 +1,11 @@
 ---
 title: Introduction
+titlepage: true
+titlepage-background: "templates/ub_book_cover.pdf"
+titlepage-rule-color: "FFFFFF"
+titlepage-text-color: "FFFFFF"
+titlepage-logo: "templates/ub_logo_white.png"
+logo-width: "2in"
 ---
 
 # Introduction

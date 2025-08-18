@@ -1,5 +1,5 @@
 defaults:
 - defaults/base.yaml
-template: ${.}/../templates/pdf_template.latex
+template: ${.}/../templates/eisvogel.latex
 output-file: ub_cs_education_handbook.pdf
 
