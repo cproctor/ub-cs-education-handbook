@@ -6,20 +6,20 @@ title: Introduction
 
 Welcome to the Computer Science Education Program at UB's Graduate School of Education. This program
 offers multiple paths to New York State teacher certification in 
-Computer Science and is the context for innovative research on K12 CS teaching and learning.
+Computer Science.
 Graduates will join a community of practice committed to providing high-quality CS learning opportunities
 as well as transforming our education system to make it more just and equitable. 
 
 It is an exciting time to be involved in K12 computer science education. 
 Our society is starting to come to terms with the technological change brought 
-about by computers over the last half century. If it were ever possible to imagine that 
-technology would offer a straightforward path toward a bright future, the global pandemic
-has laid bare how computers are deeply implicated in our society's inequities and violence.
+about by computers over the last half century and accelerated by recent advances in artificial intelligence. 
+If it were ever possible to imagine that technology would offer a straightforward path toward a bright future, 
+the last few years have demonstrated how computers are deeply implicated in our society's inequities and violence.
 
 At the same time, our identities, relationships, and worlds are built upon computational technologies. 
 Youth today live new kinds of digital lives which were unimaginable to previous generations; our
 schools need to adapt to meet their needs and welcome their identities and experiences.
-A more just and democratic society depends on informed and engaged democratic participation. Today, 
+A more just and democratic society depends on informed and engaged participation. Today, 
 that means cultivating vibrant and diverse cultures of computational literacy rooted in the communities
 and cultures served by our schools. We look forward to building this community together.
 
