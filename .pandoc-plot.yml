@@ -28,9 +28,9 @@ strict: false
 # This only matters if `source` is set to `true`.
 #source_label: Source code
 
-# Default density of figures in dots per inches (DPI). 
+# Default density of figures in dots per inches (DPI).
 # This can be changed in the document specifically as well.
-#dpi: 80
+dpi: 150
 
 # Default format in which to save the figures. This can be specified 
 # individually as well.

@@ -12,23 +12,31 @@ want to be, we have a track for you.
 digraph G {
   rank="max"
   rankdir="LR"
+  bgcolor="transparent"
+  graph [fontname="Helvetica", nodesep=0.35, ransep=0.5]
+  node [fontname="Helvetica", fontsize=11, shape="box", style="rounded,filled", penwidth=0, margin="0.18,0.1"]
+  edge [color="#9aa5b1", arrowsize=0.75, penwidth=1.3]
 
-  node [width=3]
+  node [width=3, fillcolor="#e8eef7", fontcolor="#1d3f6e"]
 
-  undergrad [label="Undergraduate UB student\n majoring in CSE" shape="box"]
-  cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework" shape="box"]
-  init_cert [label="Teachers holding\n initial certificate in CS" shape="box"]
-  other_cert [label="Teachers holding a certificate,\nor preservice teachers,\nin another discipline" shape="box"]
+  undergrad [label="Undergraduate UB student\n majoring in CSE"]
+  cse_majors [label="Completed undergraduate\n CS major\n or qualifying coursework"]
+  init_cert [label="Teachers holding an initial\n or professional teaching\n certificate in any subject"]
+  other_cert [label="Teachers holding a certificate,\nor preservice teachers,\nin another discipline"]
+
+  node [width=2.4, fillcolor="#1d5fa8", fontcolor="white"]
+
   ubteach [label="UB Teach"]
   initial [label="Initial coursework\n& residency"]
   professional [label="Professional\ncoursework"]
   advanced_certificate [label="Advanced certificate\n coursework"]
 
-  node [width=5]
+  node [width=5, fillcolor="#1f7a4d", fontcolor="white"]
 
-  init_cert_outcome [label="Certificate of Advanced Study\n Recommendation for NYS Initial Certificate in CS\n Qualified to teach CS in NY for 5 years" shape="box"]
-  pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n Qualified to teach CS in NY" shape="box"]
-  adv_cert_outcome [label="Certificate of Advanced Study\n Qualified to teach CS in NY" shape="box"]
+  init_cert_outcome [label="Certificate of Advanced Study\n Recommendation for NYS Initial Certificate in CS\n Qualified to teach CS in NY for 5 years"]
+  pro_cert_outcome [label="EdM\n Recommendation for NYS Professional Certificate in CS\n(or Additional Certificate in CS, if initial\ncertificate was in another subject)\n Qualified to teach CS in NY"]
+  adv_cert_outcome [label="Certificate of Advanced Study\n Qualified to teach CS in NY"]
+
   undergrad -> ubteach -> initial;
   cse_majors -> initial -> init_cert_outcome;
   initial -> professional;
@@ -66,10 +74,11 @@ The Initial Certificate track requires 18 units of coursework,
 followed by a year-long residency in which teacher candidates are placed in classrooms 
 under the supervision of a cooperating teacher. 
 
-The [Professional Certificate Track](#professional-certificate-track) 
-requires an additional year of coursework. Graduates earn an EdM degree and recommendation for 
-a NYS Professional Certification in CS. This track requires 30 credit hours, and can be completed in 
-one year of full-time study.
+The [Professional Certificate Track](#professional-certificate-track) is available to teachers 
+holding an initial or professional teaching certificate in any subject. Graduates earn an EdM degree 
+and a recommendation for NYS Professional Certification in CS (or, for teachers whose initial 
+certificate was in a different subject, an Additional Certification in CS). This track requires 
+30 credit hours, and can be completed in one year of full-time study.
 
 The [Initial/Professional Certificate Track](#initial-professional-certificate-track) 
 combines initial and professional certification and requires fewer credit hours than completing 

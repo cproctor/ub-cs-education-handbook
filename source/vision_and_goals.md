@@ -20,11 +20,11 @@ equitable teaching and learning in the digital age.
 Every track in the Computer Science Education Program is oriented to the same 
 program outcomes. However, curricular emphasis on each outcome varies across tracks 
 because different tracks expect incoming students to already have certain competencies.
-For example, the [Advanced Certificate track](#advanced-certificate) expects
+For example, the [Advanced Certificate track](#advanced-certificate-track-for-in-service-teachers) expects
 incoming students to have a strong foundation in pedagogical knowledge, while the 
 [UB Teach](#ub-teach-track), [Initial](#initial-certificate-track), 
 [Professional](#professional-certificate-track), and 
-[Initial/Professional](#initialprofessional-certificate-track) tracks
+[Initial/Professional](#initial-professional-certificate-track) tracks
 expect incoming students to have a strong foundation in CS content knowledge. 
 
 The program outcomes are aligned with 
@@ -32,6 +32,11 @@ The program outcomes are aligned with
 [New York's requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject), 
 the [New York Teaching Standards](https://www.highered.nysed.gov/tcert/pdf/teachingstandards9122011.pdf) (See [Appendix I](#appendix-1-tpap)),
 as well as [CSTA's Standards for CS Teachers](https://csteachers.org/page/standards-for-cs-teachers-interactive) (See [Appendix II](#appendix-2-csta)).
+
+Throughout this handbook, learning outcomes are color-coded by group wherever they appear —
+[CK]{.outcome .ck} content knowledge, [PK]{.outcome .pk} pedagogical knowledge,
+[PCK]{.outcome .pck} pedagogical content knowledge, and [L]{.outcome .l} leadership —
+and are hyperlinked back to their definitions below.
 
 ### CS Content Knowledge
 
@@ -41,10 +46,10 @@ are aligned with four of the five core concepts defined by
 concept, "Digital literacy," is addressed in the pedagogical content knowledge 
 outcomes below.
 
-- CK1: Impacts of computing
-- CK2: Computational thinking
-- CK3: Networks and system design
-- CK4: Cybersecurity
+- [CK1]{.outcome .ck #ck1}: Impacts of computing
+- [CK2]{.outcome .ck #ck2}: Computational thinking
+- [CK3]{.outcome .ck #ck3}: Networks and system design
+- [CK4]{.outcome .ck #ck4}: Cybersecurity
 
 ### Pedagogical Knowledge
 
@@ -52,12 +57,12 @@ Pedagogical knowledge outcomes for CS teachers are defined by New York's
 [requirements for teaching a special subject](http://www.nysed.gov/college-university-evaluation/general-and-program-specific-requirements-teaching-special-subject). 
 Several of New York's PK standards are addressed by PCK and L standards in UB's program outcomes.
 
-- PK1: Human development
-- PK2: Learning
-- PK3: Supporting students with disabilities
-- PK4: Language acquisition and literacy
-- PK5: Curriculum and instruction
-- PK6: Professional practice and obligations
+- [PK1]{.outcome .pk #pk1}: Human development
+- [PK2]{.outcome .pk #pk2}: Learning
+- [PK3]{.outcome .pk #pk3}: Supporting students with disabilities
+- [PK4]{.outcome .pk #pk4}: Language acquisition and literacy
+- [PK5]{.outcome .pk #pk5}: Curriculum and instruction
+- [PK6]{.outcome .pk #pk6}: Professional practice and obligations
 
 ### Pedagogical Content Knowledge
 
@@ -65,11 +70,11 @@ Pedagogical content knowledge is knowledge of how a specific discipline is learn
 effectively taught. The outcomes below are the central pedagogical practices emphasized by UB's 
 Computer Science Education Program. 
 
-- PCK1: Computing as a literacy
-- PCK2: Supporting learner identities
-- PCK3: Shaping the learning environment
-- PCK4: Teaching with computational media
-- PCK5: Feedback and assessment
+- [PCK1]{.outcome .pck #pck1}: Computing as a literacy
+- [PCK2]{.outcome .pck #pck2}: Supporting learner identities
+- [PCK3]{.outcome .pck #pck3}: Shaping the learning environment
+- [PCK4]{.outcome .pck #pck4}: Teaching with computational media
+- [PCK5]{.outcome .pck #pck5}: Feedback and assessment
 
 ### Leadership
 
@@ -80,37 +85,36 @@ long-standing inequities while opening the potential for substantial change in t
 structure of schools and their roles within communities and within the economy, 
 which CS is well-positioned to help lead. 
 
-- L1: Equity and opportunity
-- L2: Connected learning
-- L3: Interdisciplinary connections
-- L4: Design and research
+- [L1]{.outcome .l #l1}: Equity and opportunity
+- [L2]{.outcome .l #l2}: Connected learning
+- [L3]{.outcome .l #l3}: Interdisciplinary connections
+- [L4]{.outcome .l #l4}: Design and research
 
 ## Summative assessments
 
 ### New York state teacher certification exams
 
 Passing scores on the following [NYSTCE exams](https://www.nystce.nesinc.com/)
-are required for initial certification. These exams will be required for graduates of 
-the [UB Learns Track](#ub-learns-track), the [Initial Certificate Track](#initial-certificate-track),
+are required for initial certification. These exams are required for graduates of 
+the [UB Teach Track](#ub-teach-track), the [Initial Certificate Track](#initial-certificate-track),
 and the [Initial/Professional Certificate Track](#initial-professional-certificate-track).
 
 - Educating All Students (EAS) test
-- Content Specialty Test (CST) in CS
+- [Content Specialty Test (CST) in Computer Science](https://www.nystce.nesinc.com/TestView.aspx?f=HTML_FRAG/NY194_TestPage.html)
 
-The NYSTCE content specialty exam in CS is expected to be available starting summer 2025. 
-New York has historically waived exam requirements for those who complete programs prior
-to the release of exams.
+The NYSTCE Content Specialty Test in Computer Science is now offered and is a required exam 
+for initial certification in CS.
 
 ### Teacher Performance Assessment Portfolio
 
 Teacher candidates in the
-[UB Learns Track](#ub-learns-track), the 
+[UB Teach Track](#ub-teach-track), the 
 [Initial Certificate Track](#initial-certificate-track), and the 
 [Initial/Professional Certificate Track](#initial-professional-certificate-track)
 are required to complete the Teacher Performance Assessment Portfolio.
 
 UB's Teacher Performance Assessment Portfolio is aligned with the New York Teaching Standards. 
-Please see [Appendix II](#appendix-2-tpap) for an alignment of program outcomes with the 
+Please see [Appendix I](#appendix-1-tpap) for an alignment of program outcomes with the 
 New York Teaching Standards.
 
 ### Vision statement

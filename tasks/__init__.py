@@ -19,10 +19,11 @@ def alignments_for_track(c, track, interact=False):
 
 @task
 def update(c, dryrun=False):
-    "Rewrite dynamic tables in source docs"
+    "Rewrite dynamic tables in source docs, and sync version from pyproject.toml"
     from tasks.writer import DataWriter
     writer = DataWriter("source")
     writer.update_source_dir(dryrun=dryrun)
+    writer.update_base_yaml_version(dryrun=dryrun)
 
 @task
 def test(c):

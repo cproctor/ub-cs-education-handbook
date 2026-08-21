@@ -225,26 +225,103 @@ figcaption {
 
 table {
   margin-bottom: 2em;
-  border-bottom: 1px solid #ddd;
-  border-right: 1px solid #ddd;
   border-spacing: 0;
   border-collapse: collapse;
   width: 100%;
+  font-size: 0.95em;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #ddd;
 }
 
 table th {
-  padding: .2em 1em;
-  background-color: #eee;
-  border-top: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+  padding: .35em .8em;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+  font-weight: 600;
 }
 
 table td {
-  padding: .2em 1em;
-  border-top: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  vertical-align: top;
+  padding: .3em .8em;
+  border-top: 1px solid #eee;
+  vertical-align: middle;
 }
+
+table th:not(:first-child),
+table td:not(:first-child) {
+  text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+table tbody tr:hover {
+  background-color: #f0f4fa;
+}
+
+/* Divider between column groups (e.g. semesters) in a hand-authored raw-HTML
+ * table -- see tasks/table_generation.py's render_alignment_table_html.
+ * #999 matches table-rule-color in templates/eisvogel.latex. */
+table th.divider,
+table td.divider {
+  border-right: 2px solid #999;
+}
+
+/*
+ * Learning outcome badges, color-coded by group (CK/PK/PCK/L). Used in the
+ * program outcomes list, in "Program outcomes" lists on course pages, and as
+ * row labels in outcome/course alignment tables. Colors are kept in sync
+ * with the \definecolor commands in defaults/pdf.yaml and the group->class
+ * mapping in tasks/table_generation.py.
+ */
+.outcome {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.82em;
+  line-height: 1.6;
+  padding: 0.15em 0.7em;
+  border-radius: 1em;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+}
+
+.outcome:visited {
+  color: #000;
+}
+
+.outcome:hover {
+  filter: brightness(1.1);
+  text-decoration: underline;
+}
+
+/* Background colors at 85% opacity (over the page's white/near-white
+ * surface) for a softer look; text stays fully opaque black above. */
+.outcome.ck { background-color: rgba(14, 165, 233, 0.85); }
+.outcome.pk { background-color: rgba(5, 150, 105, 0.85); }
+.outcome.pck { background-color: rgba(168, 85, 247, 0.85); }
+.outcome.l { background-color: rgba(234, 88, 12, 0.85); }
+
+/*
+ * Large colored dots marking alignment-table cells; color matches the row's
+ * outcome group. A plain CSS circle (rather than a Unicode glyph) so it's
+ * crisp and truly round at any size. Kept in sync with the \OutcomeDot
+ * colors in templates/outcome-colors.tex.
+ */
+.dot {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.dot.ck { background-color: #0ea5e9; }
+.dot.pk { background-color: #059669; }
+.dot.pck { background-color: #a855f7; }
+.dot.l { background-color: #ea580c; }
 
 .author {
   font-size: 1.2em;

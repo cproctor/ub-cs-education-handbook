@@ -1,0 +1,33 @@
+% Color definitions for learning-outcome badges (CK/PK/PCK/L), used by
+% filters/outcome-colors.lua. Keep in sync with the group->class mapping in
+% tasks/table_generation.py and the badge colors in handbook.css.
+\definecolor{OutcomeCK}{HTML}{0EA5E9}
+\definecolor{OutcomePK}{HTML}{059669}
+\definecolor{OutcomePCK}{HTML}{A855F7}
+\definecolor{OutcomeL}{HTML}{EA580C}
+
+% Pill-style learning-outcome badge: a colored, rounded-corner background
+% with black text, matching the .outcome badge style in handbook.css. The
+% fill is drawn at 85% opacity (over the page's white background) for a
+% softer look, matching the rgba() backgrounds in handbook.css; the text
+% itself is drawn afterward at full opacity, so it stays solid black.
+% Loaded here (rather than relying on eisvogel's conditional \usepackage{tikz})
+% since eisvogel only loads tikz when a titlepage background image is used.
+\usepackage{tikz}
+\newcommand{\OutcomeBadge}[2]{%
+  \tikz[baseline=(outcomebadgenode.base)]
+    \node[fill=#1, fill opacity=0.85, text opacity=1, rounded corners=2pt,
+          inner sep=3pt, outer sep=0pt, text=black, font=\bfseries\scriptsize]
+    (outcomebadgenode) {#2};%
+}
+
+% Large colored dot marking an alignment-table cell, matching the .dot marker
+% style in handbook.css.
+\newcommand{\OutcomeDot}[1]{%
+  \tikz[baseline=-0.55ex]\node[fill=#1, circle, inner sep=0pt, minimum size=7pt] {};%
+}
+
+% Works around a "No counter 'none' defined" error from recent versions of
+% the `caption` package, which no longer tolerate pandoc's uncaptioned-table
+% workaround (`\def\LTcaptype{none}`) for longtables without a caption.
+\newcounter{none}

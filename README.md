@@ -35,10 +35,9 @@ Program outcomes, and the courses in which they are taught and assessed, appear 
 to keep them synchronized, a build task is avaiiable which updates tables and lists based on the data stored
 in `data`. In order to use these tasks:
 
-- Make sure [poetry](https://python-poetry.org/) is installed.
-- Run `poetry install`
-- Enter a `poetry shell`
-- Enter `inv --list` to see available tasks.
+- Make sure [uv](https://docs.astral.sh/uv/) is installed.
+- Run `uv sync`
+- Enter `uv run inv --list` to see available tasks (e.g. `uv run inv update`).
 
 See the [Pandoc manual](https://pandoc.org/MANUAL.html) for all the available
 options.

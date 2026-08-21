@@ -688,7 +688,10 @@ $if(tables)$
 %\arrayrulecolor{black!40}
 \arrayrulecolor{table-rule-color}     % color of \toprule, \midrule, \bottomrule
 \setlength\heavyrulewidth{0.3ex}      % thickness of \toprule, \bottomrule
-\renewcommand{\arraystretch}{1.3}     % spacing (padding)
+\renewcommand{\arraystretch}{1.1}     % spacing (padding) -- reduced from the
+                                       % upstream 1.3 for denser tables
+\setlength{\tabcolsep}{4pt}           % horizontal cell padding -- reduced
+                                       % from LaTeX's 6pt default, same reason
 
 $if(table-use-row-colors)$
 % Unfortunately the colored cells extend beyond the edge of the

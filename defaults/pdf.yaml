@@ -3,3 +3,6 @@ defaults:
 template: ${.}/../templates/eisvogel.latex
 output-file: ub_cs_education_handbook.pdf
 
+include-in-header:
+ - ${.}/../templates/outcome-colors.tex
+
