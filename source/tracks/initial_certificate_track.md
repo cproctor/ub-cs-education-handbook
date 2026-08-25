@@ -83,6 +83,7 @@ already have a strong content background in computer science.
 
 
 
+
 ### Coursework
 
 Students may complete the first-year courses in any order and at any pace. 

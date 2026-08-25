@@ -73,6 +73,7 @@ knowledge into CS pedagogical content knowledge and leadership.
 
 
 
+
 ### Coursework
 
 Coursework consists of 30 credits. Courses may be taken in any order and pace.

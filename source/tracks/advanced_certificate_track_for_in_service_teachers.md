@@ -86,6 +86,7 @@ existing pedagogical content knowledge to CS.
 
 
 
+
 ### Coursework
 
 The Advanced Certificate consists of five courses and a total of 15 credit hours. 

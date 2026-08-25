@@ -21,6 +21,12 @@ You will need the following packages installed. If using a mac, these can all be
 - pandoc
 - pandoc-crossref
 - pandoc-plot
+- A TeX Live distribution including `lualatex` (TeX Live 2023 or later; the
+  PDF build depends on the LaTeX kernel's tagged-PDF support, which is still
+  actively evolving, so staying reasonably current matters). The PDF is
+  built as a tagged, PDF/UA-1 conformant document -- see the comments in
+  `templates/eisvogel.latex` and `templates/outcome-colors.tex` for the
+  accessibility-specific patches this depends on.
 
 ## Building the handbook
 

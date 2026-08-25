@@ -27,3 +27,7 @@ title: History of changes
   internal cross-reference links that pointed to inconsistent or nonexistent anchors, including 
   a build configuration bug that silently excluded LAI 600 and LAI 698 from the compiled 
   handbook.
+- 3.1.0 (2026-08-25): No content changes. The PDF build now produces a tagged, accessible 
+  document meeting WCAG 2.1 AA and PDF/UA-1: proper heading structure for screen-reader 
+  navigation, alt text on all figures, and accessible learning-outcome badges, verified against 
+  the PDF/UA-1 standard with veraPDF.

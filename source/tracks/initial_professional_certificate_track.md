@@ -92,6 +92,7 @@ already have a strong content background in computer science.
 
 
 
+
 ### Coursework
 
 #### Fall Term 1 (15 credits)

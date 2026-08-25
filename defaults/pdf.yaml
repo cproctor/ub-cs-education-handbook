@@ -1,6 +1,7 @@
 defaults:
 - defaults/base.yaml
 template: ${.}/../templates/eisvogel.latex
+pdf-engine: lualatex
 output-file: ub_cs_education_handbook.pdf
 
 include-in-header:

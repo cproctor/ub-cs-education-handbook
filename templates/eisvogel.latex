@@ -1,3 +1,17 @@
+% Activates the LaTeX kernel's tagged-PDF support, producing a PDF/UA-1
+% conformant, screen-reader-accessible document (see accessibility notes
+% below, near the KOMA heading patches). This MUST be the first thing in the
+% file, before \documentclass -- pandoc's header-includes mechanism injects
+% into the preamble too late for this. pdfversion is pinned to 1.7 because
+% PDF/UA-1 (ISO 14289-1:2014) is defined in terms of PDF 1.7 / ISO 32000-1;
+% the kernel's tagging default (PDF 2.0) fails PDF/UA-1 validation.
+\DocumentMetadata{
+  lang=$if(lang)$$lang$$else$en-US$endif$,
+  pdfstandard=ua-1,
+  pdfversion=1.7,
+  tagging=on
+}
+
 %%
 % Copyright (c) 2017 - 2025, Pascal Wagler;
 % Copyright (c) 2014 - 2025, John MacFarlane
@@ -95,6 +109,36 @@ $if(footnotes-disable-backlinks)$
 $else$
 \usepackage{footnotebackref}
 $endif$
+
+% --- Accessibility: manually tag KOMA-Script's headings ---
+% As of TeX Live 2025, KOMA-Script's scrartcl/scrbook sectioning is reported
+% "currently incompatible" with the LaTeX tagging system (confirmed via
+% \DocumentMetadata{check-tagging-status}): \section, \subsection, etc.
+% produce no heading tag at all, so a screen reader has no heading structure
+% to navigate by, even though \DocumentMetadata{tagging=on} above makes this
+% a syntactically valid Tagged PDF.
+%
+% This patches each level's heading/begingroup and heading/endgroup do-hooks
+% -- KOMA's own hook points, which bracket exactly the group KOMA uses to
+% typeset each heading (see the KOMA-Script guide, "Hooks for Headings").
+% These were chosen over the generic kernel \AddToHook{cmd/section/...}: an
+% early attempt using that instead wrapped KOMA's entire command call,
+% including its deferred TOC/mark writes, and left the tag-structure stack
+% unbalanced (manifesting as unrelated-looking "does not have an item"
+% errors much later in the document).
+%
+% Only section/subsection/subsubsection/paragraph are patched (article-style
+% depth, matching $book$ = false, the only mode this has been tested in). If
+% `book: true` is ever used, \chapter would need its own H1 hook and the
+% levels below would each need to shift down by one.
+\AddtoDoHook{heading/begingroup/section}{\tagstructbegin{tag=H1}\tagmcbegin{tag=H1}}
+\AddtoDoHook{heading/endgroup/section}{\tagmcend\tagstructend}
+\AddtoDoHook{heading/begingroup/subsection}{\tagstructbegin{tag=H2}\tagmcbegin{tag=H2}}
+\AddtoDoHook{heading/endgroup/subsection}{\tagmcend\tagstructend}
+\AddtoDoHook{heading/begingroup/subsubsection}{\tagstructbegin{tag=H3}\tagmcbegin{tag=H3}}
+\AddtoDoHook{heading/endgroup/subsubsection}{\tagmcend\tagstructend}
+\AddtoDoHook{heading/begingroup/paragraph}{\tagstructbegin{tag=H4}\tagmcbegin{tag=H4}}
+\AddtoDoHook{heading/endgroup/paragraph}{\tagmcend\tagstructend}
 $--
 $-- section numbering
 $--
@@ -903,7 +947,15 @@ $if(titlepage-color)$
 \newpagecolor{titlepage-color}\afterpage{\restorepagecolor}
 $endif$
 $if(titlepage-background)$
-\tikz[remember picture,overlay] \node[inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$titlepage-background$}};
+% Purely decorative full-page background image behind the title text. It's
+% inside a tikz picture, and in testing, tikz silently dropped an explicit
+% \tagmcbegin{tag=Artifact} wrap around it (tikz's PDF-tagging support is
+% still "testphase"/experimental as of TeX Live 2025) -- so instead of true
+% Artifact exclusion, it's given a short, honest `alt` describing it as
+% decorative, via the same graphicx `alt` key used for the logo below. This
+% avoids the worse default: the kernel's automatic fallback otherwise uses
+% the raw file path ("templates/ub_book_cover.pdf") as the alt text.
+\tikz[remember picture,overlay] \node[inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight,alt={Decorative background image}]{$titlepage-background$}};
 $endif$
 \newcommand{\colorRule}[3][black]{\textcolor[HTML]{#1}{\rule{#2}{#3}}}
 \begin{flushleft}
@@ -946,7 +998,10 @@ $endif$
 
 $if(titlepage-logo)$
 \noindent
-\includegraphics[width=$if(logo-width)$$logo-width$$else$35mm$endif$, left]{$titlepage-logo$}
+% Institutional logo -- not purely decorative (it's the only place on the
+% title page the institution's identity appears as a wordmark), so it gets
+% real alt text rather than being marked as an Artifact.
+\includegraphics[width=$if(logo-width)$$logo-width$$else$35mm$endif$, left, alt={$if(institution)$$institution$$else$Institution$endif$ logo}]{$titlepage-logo$}
 $endif$
 
 $if(titlepage-background)$
