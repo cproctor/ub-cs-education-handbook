@@ -27,6 +27,11 @@ You will need the following packages installed. If using a mac, these can all be
   built as a tagged, PDF/UA-1 conformant document -- see the comments in
   `templates/eisvogel.latex` and `templates/outcome-colors.tex` for the
   accessibility-specific patches this depends on.
+- [veraPDF](https://verapdf.org/) -- only needed to run the
+  `verify-accessibility` task (see "Validating accessibility" below), not
+  for a normal build. On a Mac, `brew install verapdf` (it's a Java tool, so
+  this also pulls in a JDK); see its [install page](https://verapdf.org/software/)
+  for other platforms.
 
 ## Building the handbook
 
@@ -47,6 +52,24 @@ in `data`. In order to use these tasks:
 
 See the [Pandoc manual](https://pandoc.org/MANUAL.html) for all the available
 options.
+
+## Validating accessibility
+
+The PDF is built as a tagged document meeting the PDF/UA-1 standard (see
+"Installation" above), which is the closest thing to an automated proxy for
+WCAG 2.1 AA conformance in a PDF -- it confirms the document has genuine
+heading structure, alt text on figures, and so on, not just a visual layout
+that happens to look right.
+
+To check the built PDF against PDF/UA-1 (after installing veraPDF, and
+building the PDF with `make pdf` or `pandoc -d defaults/pdf.yaml`):
+
+    uv run inv verify-accessibility
+
+This isn't a substitute for a full WCAG 2.1 AA review: things like color
+contrast, whether alt text is actually *meaningful*, and reading order still
+need a manual check. It only automates the part that's actually
+machine-checkable -- whether the document's structure is valid.
 
 ## TODO
 
