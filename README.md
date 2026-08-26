@@ -56,23 +56,10 @@ options.
 ## Validating accessibility
 
 The PDF is built as a tagged document meeting the PDF/UA-1 standard (see
-"Installation" above), which is the closest thing to an automated proxy for
-WCAG 2.1 AA conformance in a PDF -- it confirms the document has genuine
-heading structure, alt text on figures, and so on, not just a visual layout
-that happens to look right.
+"Installation" above), which verifies that the document's structure is 
+accessible. 
 
 To check the built PDF against PDF/UA-1 (after installing veraPDF, and
 building the PDF with `make pdf` or `pandoc -d defaults/pdf.yaml`):
 
     uv run inv verify-accessibility
-
-This isn't a substitute for a full WCAG 2.1 AA review: things like color
-contrast, whether alt text is actually *meaningful*, and reading order still
-need a manual check. It only automates the part that's actually
-machine-checkable -- whether the document's structure is valid.
-
-## TODO
-
-- Put the coursework into a schedule.
-- Add fieldwork built into different courses.
-- Show how 100 hours of fieldwork will be achieved prior to residency for initial teachers. 
