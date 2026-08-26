@@ -224,7 +224,18 @@ class DataWriter:
 
     def _iterate_past_whitespace_or_lines_starting_with(self, inlines, startchars):
         """Advances an iterator as long as lines are blank or their first non-whitespace character
-        matches one of startchars. Returns a list of discarded lines.
+        matches one of startchars, then past a single trailing blank line if
+        one follows. Returns a list of discarded lines.
+
+        That trailing-blank-line step matters for idempotency: every
+        generator in this module (see `generate_list_markdown`) ends its
+        output with a blank-line separator, but the main loop below stops
+        consuming blank lines as soon as it's seen the first startchars-line
+        (so it doesn't run past the *start* of a following block) -- so
+        without this extra step, that trailing blank line would never be
+        recognized as part of the generated block, and `update` would leave
+        one more blank line behind each time it's re-run.
+
         See `iterate_past_table` and `iterate_past_list` for uses.
         """
         if isinstance(startchars, str):
@@ -241,6 +252,10 @@ class DataWriter:
             if sline.startswith(startchars):
                 startchar_found = True
             discard.append(next(inlines))
+        if startchar_found:
+            trailing = inlines.peek(None)
+            if trailing is not None and trailing.strip() == '':
+                discard.append(next(inlines))
         return discard
 
     def read_marker(self, line):
